@@ -1,3 +1,37 @@
+/*
+.organigramaMxWebPart {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+*/
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +46,7 @@
   z-index: 1;
 }*/
 /* body { */
-  /* background-image: url("/public/organograma2.png"); */
+  /* background-image: url("../assets/organograma2.png"); */
   /* background-size: cover; */
   /* background-repeat: no-repeat; */
 /* } */
@@ -25,7 +59,7 @@
 }
 .org-chart > svg {
   height: 77%;
-  /* background-color: grey; */
+  //background-color: grey;
   /* border: 2px solid #227c9d; */
   /*background-image: url("https://via.placeholder.com/500");*/
   /*background-image: url("/organograma.png");
@@ -66,27 +100,11 @@
   background-repeat: no-repeat;
   text-align: center;
 }
-.node-team {
-  width: 100%;
-  text-align: center;
-}
-.node-team-name {
-  margin-bottom: 0.5rem;
-  color: #fef9ef;
-  font-size: 1.5rem;
-}
-.node-team-member-img {
-  width: 50px;
-  height: 50px;
-  margin: 0.2rem;
-  border-radius: 50%;
-  /* background-image: url("/public/borda.png"); */
-}
 .node-img {
   width: 95px;
   height: 95px;
   border-radius: 100%;
-  background-image: url("/public/borda4.png");
+  background-image: url("../assets/borda4.png");
   background-size: 135px;
   padding:20px;
 }
@@ -120,9 +138,6 @@
   background-color: #ffcb77;
   border-radius: 1rem;
   color: #227c9d;
-}
-.node-department > svg {
-  margin-right: 0.5rem;
 }
 /* Botão para expandir relacionamentos */
 .expand-btn {
@@ -237,7 +252,7 @@
 }
 
 #departmentFilter {
-  background-image: url('/public/searchicon.png'); /* Add a search icon to input */
+  background-image: url('../assets/searchicon.png'); /* Add a search icon to input */
   /* background-position: 10px 12px; */
   background-position: 0px 0px; /* Position the search icon */
   background-repeat: no-repeat;
@@ -257,7 +272,7 @@
 }
 
 #employeeFilter {
-  background-image: url('/public/searchicon.png'); /* Add a search icon to input */
+  background-image: url('../assets/searchicon.png'); /* Add a search icon to input */
   /* background-position: 10px 12px; */
   background-position: 0px 0px; /* Position the search icon */
   background-repeat: no-repeat;
@@ -281,3 +296,63 @@
   /* stroke-width: 0.05rem; */
   /* stroke-dasharray: 3253; */
 /* } */
+
+#formPicklist select{
+	/* background-image: url('../assets/searchicon.png'); */
+	/* background-position: 0px 0px; */
+	/* background-repeat: no-repeat; */
+	/* background-size: contain; */
+	width: 15%;
+	height: 3.5em;
+	position: absolute;
+	z-index:3;
+	margin-top: 4%;
+	margin-left: 12%;
+	border: 1px solid #ddd;
+	/* padding-left: 4em; */
+}
+
+#formPicklistEmp select{
+	/* background-image: url('../assets/searchicon.png'); */
+	/* background-position: 0px 0px; */
+	/* background-repeat: no-repeat; */
+	/* background-size: contain; */
+	width: 15%;
+	height: 3.5em;
+	position: absolute;
+	z-index:3;
+	margin-top: 4%;
+	margin-left: 28%;
+	border: 1px solid #ddd;
+	/* padding-left: 4em; */
+}
+
+#home{
+	background-image: url('../assets/home.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	z-index:3;
+	width: 3em;
+	height: 3em;
+	margin-top: 1%;
+	margin-left: 2%;
+	cursor:pointer;
+}
+
+#container{
+  height: 50em;
+}
+
+#pdf{
+	background-image: url('../assets/pdf.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	z-index:3;
+	width: 3em;
+	height: 3em;
+	margin-top: 1%;
+	margin-left: 80%;
+	cursor:pointer;
+}

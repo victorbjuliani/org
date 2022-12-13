@@ -6,7 +6,7 @@ const employees = [
     department: "",
     positionName: "",
     imageName: "logo-braskem"
-  },
+, globalDepartment: ""  },
   {
     id: 1,
     parentId: 0,
@@ -14,7 +14,7 @@ const employees = [
     department: "REGULATORY LEGAL",
     positionName: "GERENTE JURÍDICO REGULATÓRIO",
     imageName: 41502
-  },
+, globalDepartment: ""  },
   {
     id: 2,
     parentId: 4,
@@ -22,7 +22,7 @@ const employees = [
     department: "BI TECHNICHAL SERVICES AND PRODUCT DEV",
     positionName: "INGENIERO SERVICIO TECNICO Y DESARROLLO JUNIOR",
     imageName: 34643
-  },
+, globalDepartment: ""  },
   {
     id: 3,
     parentId: 14,
@@ -30,7 +30,7 @@ const employees = [
     department: "BUSINESS SOLUTION & PROJECTS",
     positionName: "ANALISTA PROYECTOS SENIOR",
     imageName: 34011
-  },
+, globalDepartment: ""  },
   {
     id: 4,
     parentId: 0,
@@ -38,7 +38,7 @@ const employees = [
     department: "BI TECHNICHAL SERVICES AND PRODUCT DEV",
     positionName: "COORDINADOR SERVICIO TECNICO Y DESARROLLO",
     imageName: 34143
-  },
+, globalDepartment: ""  },
   {
     id: 5,
     parentId: 14,
@@ -46,7 +46,7 @@ const employees = [
     department: "BUSINESS SOLUTION & PROJECTS",
     positionName: "ANALISTA SOLUCIONES DE NEGOCIO JUNIOR",
     imageName: 34516
-  },
+, globalDepartment: ""  },
   {
     id: 6,
     parentId: 169,
@@ -54,7 +54,7 @@ const employees = [
     department: "DISTRIBUTION AND EXPORTS",
     positionName: "ANALISTA COMERCIAL JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 7,
     parentId: 694,
@@ -62,7 +62,7 @@ const employees = [
     department: "BI PAYABLE ACCOUNTS",
     positionName: "COORDINADOR CUENTAS POR PAGAR",
     imageName: 34330
-  },
+, globalDepartment: ""  },
   {
     id: 8,
     parentId: 505,
@@ -70,7 +70,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "TECNICO MANTENIMIENTO III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 9,
     parentId: 78,
@@ -78,7 +78,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE I",
     positionName: "TECNICO MANTENIMIENTO II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 10,
     parentId: 330,
@@ -86,7 +86,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES VI",
     positionName: "OPERADOR II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 11,
     parentId: 7,
@@ -94,7 +94,7 @@ const employees = [
     department: "BI PAYABLE ACCOUNTS",
     positionName: "ANALISTA CUENTAS POR PAGAR PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 12,
     parentId: 487,
@@ -102,7 +102,7 @@ const employees = [
     department: "IMPORTS AND SUPPLY",
     positionName: "ANALISTA PROCURA Y SUMINISTRO PLENO",
     imageName: 33981
-  },
+, globalDepartment: ""  },
   {
     id: 13,
     parentId: 227,
@@ -110,7 +110,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION II",
     positionName: "OPERADOR II",
     imageName: 33042
-  },
+, globalDepartment: ""  },
   {
     id: 14,
     parentId: 180,
@@ -118,7 +118,7 @@ const employees = [
     department: "BUSINESS SOLUTION & PROJECTS",
     positionName: "COORDINADOR PROYECTOS TI",
     imageName: 33420
-  },
+, globalDepartment: ""  },
   {
     id: 15,
     parentId: 675,
@@ -126,7 +126,7 @@ const employees = [
     department: "AUTOMATION MEXICO",
     positionName: "INGENIERO AUTOMATIZACION JUNIOR",
     imageName: 40664
-  },
+, globalDepartment: ""  },
   {
     id: 16,
     parentId: 222,
@@ -134,7 +134,7 @@ const employees = [
     department: "BI LDPE PRODUCTION III",
     positionName: "OPERADOR II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 17,
     parentId: 157,
@@ -142,7 +142,7 @@ const employees = [
     department: "MATERIALS",
     positionName: "ANALISTA PROCURA Y SUMINISTRO PLENO",
     imageName: 32978
-  },
+, globalDepartment: ""  },
   {
     id: 18,
     parentId: 342,
@@ -150,7 +150,7 @@ const employees = [
     department: "BI POLYETHYLENTE OPERATIONS",
     positionName: "ASISTENTE EJECUTIVA",
     imageName: 33756
-  },
+, globalDepartment: ""  },
   {
     id: 19,
     parentId: 299,
@@ -158,7 +158,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE II",
     positionName: "TECNICO MANTENIMIENTO II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 20,
     parentId: 499,
@@ -166,7 +166,7 @@ const employees = [
     department: "EMERGENCIES",
     positionName: "TECNICO CONTRA INCENDIO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 21,
     parentId: 279,
@@ -174,7 +174,7 @@ const employees = [
     department: "ANALYTICAL AUTOMATION",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 22,
     parentId: 292,
@@ -182,7 +182,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE IV",
     positionName: "TECNICO MANTENIMIENTO IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 23,
     parentId: 487,
@@ -190,7 +190,7 @@ const employees = [
     department: "IMPORTS AND SUPPLY",
     positionName: "ANALISTA DESARROLLO DE PROVEEDORES PLENO",
     imageName: 32131
-  },
+, globalDepartment: ""  },
   {
     id: 24,
     parentId: 325,
@@ -198,7 +198,7 @@ const employees = [
     department: "BI PRODUCTION PLANNING",
     positionName: "ANALISTA PLANEACION PRODUCCION PLENO",
     imageName: 31495
-  },
+, globalDepartment: ""  },
   {
     id: 25,
     parentId: 500,
@@ -206,7 +206,7 @@ const employees = [
     department: "BI INDUSTRIAL PLANNING",
     positionName: "INGENIERO DE PROYECTOS JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 26,
     parentId: 140,
@@ -214,7 +214,7 @@ const employees = [
     department: "BI P&O PEOPLE SERVICES",
     positionName: "ANALISTA SERVICIOS A PERSONAS PLENO",
     imageName: 31343
-  },
+, globalDepartment: ""  },
   {
     id: 27,
     parentId: 236,
@@ -222,7 +222,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES VI",
     positionName: "OPERADOR III",
     imageName: 31214
-  },
+, globalDepartment: ""  },
   {
     id: 28,
     parentId: 63,
@@ -230,7 +230,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES I",
     positionName: "OPERADOR II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 29,
     parentId: 55,
@@ -238,7 +238,7 @@ const employees = [
     department: "MATERIALS, SERVICES AND CONTRACTS",
     positionName: "ANALISTA PROCURA Y SUMINISTRO PLENO",
     imageName: 31354
-  },
+, globalDepartment: ""  },
   {
     id: 30,
     parentId: 508,
@@ -246,7 +246,7 @@ const employees = [
     department: "QUALITY MEXICO",
     positionName: "INGENIERO CALIDAD PLENO",
     imageName: 30295
-  },
+, globalDepartment: ""  },
   {
     id: 31,
     parentId: 678,
@@ -254,7 +254,7 @@ const employees = [
     department: "BI LDPE PRODUCTION III",
     positionName: "OPERADOR III",
     imageName: 30301
-  },
+, globalDepartment: ""  },
   {
     id: 32,
     parentId: 667,
@@ -262,7 +262,7 @@ const employees = [
     department: "BI SOCIAL RESPONSIBILITY",
     positionName: "ANALISTA RESPONSABILIDAD SOCIAL PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 33,
     parentId: 63,
@@ -270,7 +270,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES II",
     positionName: "OPERADOR III",
     imageName: 29745
-  },
+, globalDepartment: ""  },
   {
     id: 34,
     parentId: 677,
@@ -278,7 +278,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES IV",
     positionName: "SUPERVISOR INSTRUMENTISTA",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 35,
     parentId: 677,
@@ -286,7 +286,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE III",
     positionName: "SUPERVISOR MECANICO",
     imageName: 30306
-  },
+, globalDepartment: ""  },
   {
     id: 36,
     parentId: 0,
@@ -294,7 +294,7 @@ const employees = [
     department: "BI MAINTENANCE PLANNING",
     positionName: "INGENIERO PLANEACION JUNIOR",
     imageName: 30917
-  },
+, globalDepartment: ""  },
   {
     id: 37,
     parentId: 682,
@@ -302,7 +302,7 @@ const employees = [
     department: "PEOPLE & ORGANIZATION",
     positionName: "DIRECTOR CORPORATIVO",
     imageName: 30919
-  },
+, globalDepartment: ""  },
   {
     id: 38,
     parentId: 484,
@@ -310,7 +310,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES I",
     positionName: "OPERADOR IV",
     imageName: 29891
-  },
+, globalDepartment: ""  },
   {
     id: 39,
     parentId: 624,
@@ -318,7 +318,7 @@ const employees = [
     department: "SERVICES AND CONTRACTS",
     positionName: "ANALISTA CONTRATOS Y SERVICIOS SENIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 40,
     parentId: 413,
@@ -326,7 +326,7 @@ const employees = [
     department: "BI ACCOUNTING II",
     positionName: "COORDINADOR CONTABILIDAD",
     imageName: 31443
-  },
+, globalDepartment: ""  },
   {
     id: 41,
     parentId: 169,
@@ -334,7 +334,7 @@ const employees = [
     department: "DISTRIBUTION AND EXPORTS",
     positionName: "COORDINADOR POLIPROPILENO",
     imageName: 29633
-  },
+, globalDepartment: ""  },
   {
     id: 42,
     parentId: 642,
@@ -342,7 +342,7 @@ const employees = [
     department: "BI CUSTOMER SERVICES IM",
     positionName: "ANALISTA SERVICIO AL CLIENTE MI JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 43,
     parentId: 225,
@@ -350,7 +350,7 @@ const employees = [
     department: "BI LOGISTIC OPERATIONS",
     positionName: "ANALISTA LOGISTICA PLENO",
     imageName: 32821
-  },
+, globalDepartment: ""  },
   {
     id: 44,
     parentId: 536,
@@ -358,7 +358,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE II",
     positionName: "TECNICO MANTENIMIENTO II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 45,
     parentId: 474,
@@ -366,7 +366,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION",
     positionName: "INGENIERO PRODUCCION SENIOR",
     imageName: 26022
-  },
+, globalDepartment: ""  },
   {
     id: 46,
     parentId: 404,
@@ -374,7 +374,7 @@ const employees = [
     department: "BI HDPE PRODUCTION VIII",
     positionName: "OPERADOR IV",
     imageName: 26418
-  },
+, globalDepartment: ""  },
   {
     id: 47,
     parentId: 409,
@@ -382,7 +382,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES V",
     positionName: "OPERADOR V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 48,
     parentId: 227,
@@ -390,7 +390,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION II",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 49,
     parentId: 474,
@@ -398,7 +398,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION II",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 50,
     parentId: 505,
@@ -406,7 +406,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 51,
     parentId: 236,
@@ -414,7 +414,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES VI",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 52,
     parentId: 474,
@@ -422,7 +422,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION I",
     positionName: "SUPERVISOR PRODUCCION",
     imageName: 26925
-  },
+, globalDepartment: ""  },
   {
     id: 53,
     parentId: 313,
@@ -430,7 +430,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES",
     positionName: "TECNICO DE OPERACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 54,
     parentId: 227,
@@ -438,7 +438,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION II",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 55,
     parentId: 586,
@@ -446,7 +446,7 @@ const employees = [
     department: "MATERIALS, SERVICES AND CONTRACTS",
     positionName: "COORDINADOR CONTRATOS Y SERVICIOS",
     imageName: 26100
-  },
+, globalDepartment: ""  },
   {
     id: 56,
     parentId: 673,
@@ -454,7 +454,7 @@ const employees = [
     department: "BI IMPORTED ETHANE OPERATION",
     positionName: "COORDINADOR DE OPERACION ETANO IMPORTADO",
     imageName: 26309
-  },
+, globalDepartment: ""  },
   {
     id: 57,
     parentId: 37,
@@ -462,7 +462,7 @@ const employees = [
     department: "BI P&O COATZACOALCOS",
     positionName: "GERENTE P&O",
     imageName: 28359
-  },
+, globalDepartment: ""  },
   {
     id: 58,
     parentId: 56,
@@ -470,7 +470,7 @@ const employees = [
     department: "BI IMPORTED ETHANE OPERATION",
     positionName: "TECNICO DE OPERACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 59,
     parentId: 546,
@@ -478,7 +478,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE III",
     positionName: "TECNICO MANTENIMIENTO IV",
     imageName: 26954
-  },
+, globalDepartment: ""  },
   {
     id: 60,
     parentId: 418,
@@ -486,7 +486,7 @@ const employees = [
     department: "BI HEALTH, ENVIRONMENT AND SAFETY",
     positionName: "ENFERMERA",
     imageName: 28714
-  },
+, globalDepartment: ""  },
   {
     id: 61,
     parentId: 670,
@@ -494,7 +494,7 @@ const employees = [
     department: "BI LDPE PRODUCTION",
     positionName: "INGENIERO DE EFECTIVIDAD OPERACIONAL",
     imageName: 26491
-  },
+, globalDepartment: ""  },
   {
     id: 62,
     parentId: 313,
@@ -502,7 +502,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES",
     positionName: "TECNICO DE OPERACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 63,
     parentId: 313,
@@ -510,7 +510,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES IV",
     positionName: "SUPERVISOR PRODUCCION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 64,
     parentId: 505,
@@ -518,7 +518,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: 26980
-  },
+, globalDepartment: ""  },
   {
     id: 65,
     parentId: 675,
@@ -526,7 +526,7 @@ const employees = [
     department: "AUTOMATION MEXICO",
     positionName: "SUPERINTENDENTE AUTOMATIZACION",
     imageName: 26499
-  },
+, globalDepartment: ""  },
   {
     id: 66,
     parentId: 505,
@@ -534,7 +534,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "INGENIERO MECANICO ESPECIALISTA",
     imageName: 26219
-  },
+, globalDepartment: ""  },
   {
     id: 67,
     parentId: 0,
@@ -542,7 +542,7 @@ const employees = [
     department: "BI MAINTENANCE PLANNING",
     positionName: "INGENIERO PLANEACION PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 68,
     parentId: 236,
@@ -550,7 +550,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES II",
     positionName: "OPERADOR III",
     imageName: 26398
-  },
+, globalDepartment: ""  },
   {
     id: 69,
     parentId: 692,
@@ -558,7 +558,7 @@ const employees = [
     department: "BI COMMERCIAL - PE RIGID",
     positionName: "GERENTE DE VENTAS",
     imageName: 28598
-  },
+, globalDepartment: ""  },
   {
     id: 70,
     parentId: 148,
@@ -566,7 +566,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES III",
     positionName: "SUPERVISOR MECANICO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 71,
     parentId: 78,
@@ -574,7 +574,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: 26244
-  },
+, globalDepartment: ""  },
   {
     id: 72,
     parentId: 505,
@@ -582,7 +582,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "INGENIERO CONFIABILIDAD PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 73,
     parentId: 671,
@@ -590,7 +590,7 @@ const employees = [
     department: "LABORATORY I",
     positionName: "TECNICO LABORATORISTA JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 74,
     parentId: 508,
@@ -598,7 +598,7 @@ const employees = [
     department: "QUALITY MEXICO",
     positionName: "INGENIERO CALIDAD SENIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 75,
     parentId: 581,
@@ -606,7 +606,7 @@ const employees = [
     department: "BI HDPE PRODUCTION",
     positionName: "TECNICO DE OPERACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 76,
     parentId: 259,
@@ -614,7 +614,7 @@ const employees = [
     department: "BI HDPE PRODUCTION III",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 77,
     parentId: 495,
@@ -622,7 +622,7 @@ const employees = [
     department: "LABORATORY II",
     positionName: "TECNICO LABORATORISTA PLENO",
     imageName: 28807
-  },
+, globalDepartment: ""  },
   {
     id: 78,
     parentId: 148,
@@ -630,7 +630,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE IV",
     positionName: "SUPERVISOR MECANICO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 79,
     parentId: 960,
@@ -638,7 +638,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE",
     positionName: "INGENIERO MANTENIMIENTO PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 80,
     parentId: 505,
@@ -646,7 +646,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "INGENIERO ESTATICO ESPECIALISTA",
     imageName: 24417
-  },
+, globalDepartment: ""  },
   {
     id: 81,
     parentId: 0,
@@ -654,7 +654,7 @@ const employees = [
     department: "BI MAINTENANCE PLANNING",
     positionName: "INGENIERO EFECTIVIDAD OPERACIONAL",
     imageName: 25742
-  },
+, globalDepartment: ""  },
   {
     id: 82,
     parentId: 581,
@@ -662,7 +662,7 @@ const employees = [
     department: "BI HDPE PRODUCTION",
     positionName: "TECNICO DE OPERACION",
     imageName: 25745
-  },
+, globalDepartment: ""  },
   {
     id: 83,
     parentId: 416,
@@ -670,7 +670,7 @@ const employees = [
     department: "BI TAX I",
     positionName: "COORDINADOR FISCAL",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 84,
     parentId: 284,
@@ -678,7 +678,7 @@ const employees = [
     department: "BI CUSTOMER SERVICES EM",
     positionName: "ANALISTA SERVICIO AL CLIENTE ME PLENO",
     imageName: 22726
-  },
+, globalDepartment: ""  },
   {
     id: 85,
     parentId: 352,
@@ -686,7 +686,7 @@ const employees = [
     department: "AUTOMATION MEXICO",
     positionName: "INGENIERO AUTOMATIZACION PLENO",
     imageName: 34654
-  },
+, globalDepartment: ""  },
   {
     id: 86,
     parentId: 116,
@@ -694,7 +694,7 @@ const employees = [
     department: "COMPLIANCE MEXICO",
     positionName: "ANALISTA COMPLIANCE SENIOR",
     imageName: 34838
-  },
+, globalDepartment: ""  },
   {
     id: 87,
     parentId: 332,
@@ -702,7 +702,7 @@ const employees = [
     department: "BI TECHNICHAL LABORATORY",
     positionName: "INGENIERO LABORATORIO JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 88,
     parentId: 4,
@@ -710,7 +710,7 @@ const employees = [
     department: "BI TECHNICHAL SERVICES AND PRODUCT DEV",
     positionName: "INGENIERO SERVICIO TECNICO Y DESARROLLO JUNIOR",
     imageName: 34037
-  },
+, globalDepartment: ""  },
   {
     id: 89,
     parentId: 402,
@@ -718,7 +718,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES II",
     positionName: "TECNICO MANTENIMIENTO IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 90,
     parentId: 277,
@@ -726,7 +726,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE I",
     positionName: "TECNICO MANTENIMIENTO III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 91,
     parentId: 546,
@@ -734,7 +734,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE III",
     positionName: "TECNICO MANTENIMIENTO II",
     imageName: 33972
-  },
+, globalDepartment: ""  },
   {
     id: 92,
     parentId: 125,
@@ -742,7 +742,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE IV",
     positionName: "TECNICO MANTENIMIENTO II",
     imageName: 33709
-  },
+, globalDepartment: ""  },
   {
     id: 93,
     parentId: 350,
@@ -750,7 +750,7 @@ const employees = [
     department: "BI COLLECTION",
     positionName: "ANALISTA COBRANZA JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 94,
     parentId: 167,
@@ -758,7 +758,7 @@ const employees = [
     department: "BI PROCESSES",
     positionName: "ANALISTA PROCESOS JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 95,
     parentId: 164,
@@ -766,7 +766,7 @@ const employees = [
     department: "PRODUCT AND MARKET INTELIGENCE",
     positionName: "ANALISTA DE PRODUCTO SENIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 96,
     parentId: 696,
@@ -774,7 +774,7 @@ const employees = [
     department: "PRODUCT AND MARKET INTELIGENCE",
     positionName: "COORDINADOR PCR",
     imageName: 30789
-  },
+, globalDepartment: ""  },
   {
     id: 97,
     parentId: 484,
@@ -782,7 +782,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES I",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 98,
     parentId: 163,
@@ -790,7 +790,7 @@ const employees = [
     department: "BI INDUSTRIAL PERFORMANCE MANAGEMENT",
     positionName: "ANALISTA DESEMPEÑO INDUSTRIAL SENIOR",
     imageName: 30349
-  },
+, globalDepartment: ""  },
   {
     id: 99,
     parentId: 505,
@@ -798,7 +798,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "INGENIERO CONFIABILIDAD PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 100,
     parentId: 319,
@@ -806,7 +806,7 @@ const employees = [
     department: "RAW MATERIAIS AND SUPPLY",
     positionName: "ANALISTA PROCURA Y SUMINISTRO SENIOR",
     imageName: 32221
-  },
+, globalDepartment: ""  },
   {
     id: 101,
     parentId: 562,
@@ -814,7 +814,7 @@ const employees = [
     department: "BI HDPE PRODUCTION VI",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 102,
     parentId: 140,
@@ -822,7 +822,7 @@ const employees = [
     department: "BI P&O PEOPLE SERVICES",
     positionName: "OPERADOR II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 103,
     parentId: 481,
@@ -830,7 +830,7 @@ const employees = [
     department: "BI TRANSPORTATION MANAGEMENT",
     positionName: "COORDINADOR GESTION DE TRANSPORTES",
     imageName: 31003
-  },
+, globalDepartment: ""  },
   {
     id: 104,
     parentId: 55,
@@ -838,7 +838,7 @@ const employees = [
     department: "MATERIALS, SERVICES AND CONTRACTS",
     positionName: "ANALISTA CONTRATOS Y SERVICIOS SENIOR",
     imageName: 31972
-  },
+, globalDepartment: ""  },
   {
     id: 105,
     parentId: 125,
@@ -846,7 +846,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE IV",
     positionName: "TECNICO MANTENIMIENTO IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 106,
     parentId: 499,
@@ -854,7 +854,7 @@ const employees = [
     department: "EMERGENCIES",
     positionName: "TECNICO CONTRA INCENDIO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 107,
     parentId: 259,
@@ -862,7 +862,7 @@ const employees = [
     department: "BI HDPE PRODUCTION VI",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 108,
     parentId: 389,
@@ -870,7 +870,7 @@ const employees = [
     department: "BI INDUSTRIAL SAFETY",
     positionName: "INGENIERO SEGURIDAD INDUSTRIAL JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 109,
     parentId: 409,
@@ -878,7 +878,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES V",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 110,
     parentId: 499,
@@ -886,7 +886,7 @@ const employees = [
     department: "EMERGENCIES",
     positionName: "TECNICO CONTRA INCENDIO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 111,
     parentId: 351,
@@ -894,7 +894,7 @@ const employees = [
     department: "BI CONTROLLING & RISKS",
     positionName: "ESPECIALISTA DE CONTRALORIA",
     imageName: 30877
-  },
+, globalDepartment: ""  },
   {
     id: 112,
     parentId: 261,
@@ -902,7 +902,7 @@ const employees = [
     department: "BI LDPE PRODUCTION III",
     positionName: "OPERADOR III",
     imageName: 30299
-  },
+, globalDepartment: ""  },
   {
     id: 113,
     parentId: 284,
@@ -910,7 +910,7 @@ const employees = [
     department: "BI CUSTOMER SERVICES EM",
     positionName: "ANALISTA SERVICIO AL CLIENTE ME PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 114,
     parentId: 642,
@@ -918,7 +918,7 @@ const employees = [
     department: "BI CUSTOMER SERVICES IM",
     positionName: "ANALISTA SERVICIO AL CLIENTE MI PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 115,
     parentId: 678,
@@ -926,7 +926,7 @@ const employees = [
     department: "BI LDPE PRODUCTION III",
     positionName: "OPERADOR II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 116,
     parentId: 0,
@@ -934,7 +934,7 @@ const employees = [
     department: "COMPLIANCE MEXICO",
     positionName: "GERENTE COMPLIANCE",
     imageName: 42182
-  },
+, globalDepartment: ""  },
   {
     id: 117,
     parentId: 0,
@@ -942,7 +942,7 @@ const employees = [
     department: "BI COMPENSATION AND BENEFITS I",
     positionName: "ANALISTA REMUNERACION Y BENEFICIOS JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 118,
     parentId: 666,
@@ -950,7 +950,7 @@ const employees = [
     department: "BI MAINTENANCE",
     positionName: "ASISTENTE EJECUTIVA",
     imageName: 32436
-  },
+, globalDepartment: ""  },
   {
     id: 119,
     parentId: 495,
@@ -958,7 +958,7 @@ const employees = [
     department: "LABORATORY II",
     positionName: "TECNICO LABORATORISTA PLENO",
     imageName: 32780
-  },
+, globalDepartment: ""  },
   {
     id: 120,
     parentId: 546,
@@ -966,7 +966,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE II",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 121,
     parentId: 670,
@@ -974,7 +974,7 @@ const employees = [
     department: "BI LDPE PRODUCTION",
     positionName: "TECNICO DE OPERACION",
     imageName: 26419
-  },
+, globalDepartment: ""  },
   {
     id: 122,
     parentId: 562,
@@ -982,7 +982,7 @@ const employees = [
     department: "BI HDPE PRODUCTION II",
     positionName: "OPERADOR IV",
     imageName: 26920
-  },
+, globalDepartment: ""  },
   {
     id: 123,
     parentId: 56,
@@ -990,7 +990,7 @@ const employees = [
     department: "BI IMPORTED ETHANE OPERATION",
     positionName: "TECNICO DE OPERACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 124,
     parentId: 670,
@@ -998,7 +998,7 @@ const employees = [
     department: "BI LDPE PRODUCTION",
     positionName: "TECNICO DE OPERACION",
     imageName: 26878
-  },
+, globalDepartment: ""  },
   {
     id: 125,
     parentId: 582,
@@ -1006,7 +1006,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE I",
     positionName: "SUPERVISOR INSTRUMENTISTA",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 126,
     parentId: 244,
@@ -1014,7 +1014,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE II",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 127,
     parentId: 499,
@@ -1022,7 +1022,7 @@ const employees = [
     department: "EMERGENCIES",
     positionName: "TECNICO CONTRA INCENDIO",
     imageName: 26928
-  },
+, globalDepartment: ""  },
   {
     id: 128,
     parentId: 465,
@@ -1030,7 +1030,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES III",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 129,
     parentId: 389,
@@ -1038,7 +1038,7 @@ const employees = [
     department: "BI INDUSTRIAL SAFETY",
     positionName: "INGENIERO SEGURIDAD INDUSTRIAL PLENO",
     imageName: 27586
-  },
+, globalDepartment: ""  },
   {
     id: 130,
     parentId: 666,
@@ -1046,7 +1046,7 @@ const employees = [
     department: "BI MAINTENANCE",
     positionName: "COORDINADOR DE PAROS",
     imageName: 27983
-  },
+, globalDepartment: ""  },
   {
     id: 131,
     parentId: 261,
@@ -1054,7 +1054,7 @@ const employees = [
     department: "BI LDPE PRODUCTION II",
     positionName: "OPERADOR IV",
     imageName: 26894
-  },
+, globalDepartment: ""  },
   {
     id: 132,
     parentId: 156,
@@ -1062,7 +1062,7 @@ const employees = [
     department: "PROCESS ENGINEERING",
     positionName: "INGENIERO PROCESOS ESPECIALISTA",
     imageName: 26081
-  },
+, globalDepartment: ""  },
   {
     id: 133,
     parentId: 222,
@@ -1070,7 +1070,7 @@ const employees = [
     department: "BI LDPE PRODUCTION I",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 134,
     parentId: 345,
@@ -1078,7 +1078,7 @@ const employees = [
     department: "LABORATORIES-I",
     positionName: "INGENIERO LABORATORIO SENIOR",
     imageName: 26646
-  },
+, globalDepartment: ""  },
   {
     id: 135,
     parentId: 352,
@@ -1086,7 +1086,7 @@ const employees = [
     department: "AUTOMATION MEXICO",
     positionName: "INGENIERO AUTOMATIZACION PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 136,
     parentId: 78,
@@ -1094,7 +1094,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE I",
     positionName: "TECNICO MANTENIMIENTO IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 137,
     parentId: 484,
@@ -1102,7 +1102,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES I",
     positionName: "OPERADOR IV",
     imageName: 27053
-  },
+, globalDepartment: ""  },
   {
     id: 138,
     parentId: 7,
@@ -1110,7 +1110,7 @@ const employees = [
     department: "BI PAYABLE ACCOUNTS",
     positionName: "ANALISTA CUENTAS POR COBRAR PLENO",
     imageName: 26101
-  },
+, globalDepartment: ""  },
   {
     id: 139,
     parentId: 484,
@@ -1118,7 +1118,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES II",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 140,
     parentId: 57,
@@ -1126,7 +1126,7 @@ const employees = [
     department: "BI P&O PEOPLE SERVICES",
     positionName: "COORDINADOR SERVICIOS A PERSONAS",
     imageName: 25857
-  },
+, globalDepartment: ""  },
   {
     id: 141,
     parentId: 648,
@@ -1134,7 +1134,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION III",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 142,
     parentId: 581,
@@ -1142,7 +1142,7 @@ const employees = [
     department: "BI HDPE PRODUCTION VII",
     positionName: "SUPERVISOR PRODUCCION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 143,
     parentId: 227,
@@ -1150,7 +1150,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION V",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 144,
     parentId: 148,
@@ -1158,7 +1158,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE I",
     positionName: "SUPERVISOR ELECTRICO",
     imageName: 26218
-  },
+, globalDepartment: ""  },
   {
     id: 145,
     parentId: 474,
@@ -1166,7 +1166,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION",
     positionName: "INGENIERO PRODUCCION PLENO",
     imageName: 26372
-  },
+, globalDepartment: ""  },
   {
     id: 146,
     parentId: 170,
@@ -1174,7 +1174,7 @@ const employees = [
     department: "BI PRODUCTION AND SERVICES",
     positionName: "GERENTE PRODUCCION",
     imageName: 28561
-  },
+, globalDepartment: ""  },
   {
     id: 147,
     parentId: 505,
@@ -1182,7 +1182,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "INGENIERO CONFIABILIDAD SENIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 148,
     parentId: 666,
@@ -1190,7 +1190,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE",
     positionName: "SUPERINTENDENTE MANTENIMIENTO",
     imageName: 26515
-  },
+, globalDepartment: ""  },
   {
     id: 149,
     parentId: 157,
@@ -1198,7 +1198,7 @@ const employees = [
     department: "MATERIALS",
     positionName: "ANALISTA PROCURA Y SUMINISTRO PLENO",
     imageName: 28588
-  },
+, globalDepartment: ""  },
   {
     id: 150,
     parentId: 474,
@@ -1206,7 +1206,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION V",
     positionName: "SUPERVISOR PRODUCCION",
     imageName: 26397
-  },
+, globalDepartment: ""  },
   {
     id: 151,
     parentId: 562,
@@ -1214,7 +1214,7 @@ const employees = [
     department: "BI HDPE PRODUCTION III",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 152,
     parentId: 581,
@@ -1222,7 +1222,7 @@ const employees = [
     department: "BI HDPE PRODUCTION",
     positionName: "TECNICO DE OPERACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 153,
     parentId: 412,
@@ -1230,7 +1230,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES II",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 154,
     parentId: 203,
@@ -1238,7 +1238,7 @@ const employees = [
     department: "LEGAL & CORPORATE GOVERNANCE",
     positionName: "GERENTE LEGAL",
     imageName: 40918
-  },
+, globalDepartment: ""  },
   {
     id: 155,
     parentId: 227,
@@ -1246,7 +1246,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION III",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 156,
     parentId: 170,
@@ -1254,7 +1254,7 @@ const employees = [
     department: "PROCESS ENGINEERING",
     positionName: "SUPERINTENDENTE DE PROCESOS",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 157,
     parentId: 586,
@@ -1262,7 +1262,7 @@ const employees = [
     department: "MATERIALS",
     positionName: "COORDINADOR PROCURA Y SUMINISTRO",
     imageName: 29090
-  },
+, globalDepartment: ""  },
   {
     id: 158,
     parentId: 499,
@@ -1270,7 +1270,7 @@ const employees = [
     department: "EMERGENCIES",
     positionName: "TECNICO CONTRA INCENDIO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 159,
     parentId: 481,
@@ -1278,7 +1278,7 @@ const employees = [
     department: "BI QUALITY",
     positionName: "ANALISTA CALIDAD PLENO",
     imageName: 29140
-  },
+, globalDepartment: ""  },
   {
     id: 160,
     parentId: 222,
@@ -1286,7 +1286,7 @@ const employees = [
     department: "BI LDPE PRODUCTION II",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 161,
     parentId: 148,
@@ -1294,7 +1294,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE III",
     positionName: "INGENIERO MANTENIMIENTO PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 162,
     parentId: 693,
@@ -1302,7 +1302,7 @@ const employees = [
     department: "BI STRATEGIC RAW MATERIAL AND ENGERGY",
     positionName: "GERENTE INSUMOS ESTRATEGICOS Y ENERGIA",
     imageName: 23736
-  },
+, globalDepartment: ""  },
   {
     id: 163,
     parentId: 689,
@@ -1310,7 +1310,7 @@ const employees = [
     department: "BI INDUSTRIAL PERFORMANCE MANAGEMENT",
     positionName: "COORDINADOR DESEMPEÑO INDUSTRIAL",
     imageName: 24977
-  },
+, globalDepartment: ""  },
   {
     id: 164,
     parentId: 696,
@@ -1318,7 +1318,7 @@ const employees = [
     department: "PRODUCT",
     positionName: "COORDINADOR DE PRODUCTO",
     imageName: 24979
-  },
+, globalDepartment: ""  },
   {
     id: 165,
     parentId: 225,
@@ -1326,7 +1326,7 @@ const employees = [
     department: "BI LOGISTIC OPERATIONS",
     positionName: "ANALISTA LOGISTICA JUNIOR",
     imageName: 25287
-  },
+, globalDepartment: ""  },
   {
     id: 166,
     parentId: 162,
@@ -1334,7 +1334,7 @@ const employees = [
     department: "BI STRATEGIC RAW MATERIAL AND ENGERGY",
     positionName: "ESPECIALISTA ENERGIA II",
     imageName: 25780
-  },
+, globalDepartment: ""  },
   {
     id: 167,
     parentId: 690,
@@ -1342,7 +1342,7 @@ const employees = [
     department: "BI CUSTOMER SERVICES",
     positionName: "GERENTE SERVICIO AL CLIENTE",
     imageName: 25539
-  },
+, globalDepartment: ""  },
   {
     id: 168,
     parentId: 670,
@@ -1350,7 +1350,7 @@ const employees = [
     department: "BI LDPE PRODUCTION",
     positionName: "INGENIERO PRODUCCION PLENO",
     imageName: 25639
-  },
+, globalDepartment: ""  },
   {
     id: 169,
     parentId: 692,
@@ -1358,7 +1358,7 @@ const employees = [
     department: "DISTRIBUTION AND EXPORTS",
     positionName: "GERENTE VENTAS",
     imageName: 22723
-  },
+, globalDepartment: ""  },
   {
     id: 170,
     parentId: 682,
@@ -1366,7 +1366,7 @@ const employees = [
     department: "INDUSTRIAL MEXICO",
     positionName: "DIRECTOR INDUSTRIAL",
     imageName: 22727
-  },
+, globalDepartment: ""  },
   {
     id: 171,
     parentId: 37,
@@ -1374,7 +1374,7 @@ const employees = [
     department: "BI INTERNAL COMMUNICATION",
     positionName: "COORDINADOR COMUNICACION INTERNA",
     imageName: 22728
-  },
+, globalDepartment: ""  },
   {
     id: 172,
     parentId: 505,
@@ -1382,7 +1382,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "INGENIERO CONFIABILIDAD JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 173,
     parentId: 264,
@@ -1390,7 +1390,7 @@ const employees = [
     department: "BI LABOR RELATIONSHIP",
     positionName: "ANALISTA EDUCACION INDUSTRIAL SENIOR",
     imageName: 34433
-  },
+, globalDepartment: ""  },
   {
     id: 174,
     parentId: 261,
@@ -1398,7 +1398,7 @@ const employees = [
     department: "BI LDPE PRODUCTION IV",
     positionName: "OPERADOR II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 175,
     parentId: 227,
@@ -1406,7 +1406,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION III",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 176,
     parentId: 284,
@@ -1414,7 +1414,7 @@ const employees = [
     department: "BI CUSTOMER SERVICES EM",
     positionName: "ANALISTA SERVICIO AL CLIENTE ME JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 177,
     parentId: 276,
@@ -1422,7 +1422,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES I",
     positionName: "TECNICO MANTENIMIENTO II",
     imageName: 33970
-  },
+, globalDepartment: ""  },
   {
     id: 178,
     parentId: 322,
@@ -1430,7 +1430,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES II",
     positionName: "OPERADOR II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 179,
     parentId: 541,
@@ -1438,7 +1438,7 @@ const employees = [
     department: "BI LOGISTIC CONTRACTS",
     positionName: "ANALISTA CONTRATOS LOGISTICOS PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 180,
     parentId: 0,
@@ -1446,7 +1446,7 @@ const employees = [
     department: "IT MEXICO LOCAL",
     positionName: "GERENTE TI",
     imageName: 33497
-  },
+, globalDepartment: ""  },
   {
     id: 181,
     parentId: 690,
@@ -1454,7 +1454,7 @@ const employees = [
     department: "SUPPLY CHAIN MEXICO",
     positionName: "ASISTENTE EJECUTIVA",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 182,
     parentId: 413,
@@ -1462,7 +1462,7 @@ const employees = [
     department: "BI ACCOUNTING III",
     positionName: "COORDINADOR CONTABILIDAD",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 183,
     parentId: 671,
@@ -1470,7 +1470,7 @@ const employees = [
     department: "LABORATORY I",
     positionName: "TECNICO LABORATORISTA JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 184,
     parentId: 404,
@@ -1478,7 +1478,7 @@ const employees = [
     department: "BI HDPE PRODUCTION VIII",
     positionName: "OPERADOR II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 185,
     parentId: 389,
@@ -1486,7 +1486,7 @@ const employees = [
     department: "BI INDUSTRIAL SAFETY",
     positionName: "INGENIERO SEGURIDAD INDUSTRIAL PLENO",
     imageName: 29930
-  },
+, globalDepartment: ""  },
   {
     id: 186,
     parentId: 140,
@@ -1494,7 +1494,7 @@ const employees = [
     department: "BI P&O PEOPLE SERVICES",
     positionName: "OPERADOR II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 187,
     parentId: 562,
@@ -1502,7 +1502,7 @@ const employees = [
     department: "BI HDPE PRODUCTION IX",
     positionName: "OPERADOR III",
     imageName: 31304
-  },
+, globalDepartment: ""  },
   {
     id: 188,
     parentId: 474,
@@ -1510,7 +1510,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION",
     positionName: "INGENIERO DE EFECTIVIDAD OPERACIONAL",
     imageName: 29794
-  },
+, globalDepartment: ""  },
   {
     id: 189,
     parentId: 689,
@@ -1518,7 +1518,7 @@ const employees = [
     department: "BI COMMERCIAL PERFOR. MGNT & MKT INTEL",
     positionName: "COORDINADOR DESEMPEÑO COMERCIAL",
     imageName: 29995
-  },
+, globalDepartment: ""  },
   {
     id: 190,
     parentId: 541,
@@ -1526,7 +1526,7 @@ const employees = [
     department: "BI LOGISTIC CONTRACTS",
     positionName: "ANALISTA CONTRATOS LOGISTICOS SENIOR",
     imageName: 30989
-  },
+, globalDepartment: ""  },
   {
     id: 191,
     parentId: 960,
@@ -1534,7 +1534,7 @@ const employees = [
     department: "BI MAINTENANCE PLANNING",
     positionName: "INGENIERO PLANEACION JUNIOR",
     imageName: 32130
-  },
+, globalDepartment: ""  },
   {
     id: 192,
     parentId: 125,
@@ -1542,7 +1542,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE",
     positionName: "TECNICO MANTENIMIENTO IV",
     imageName: 30267
-  },
+, globalDepartment: ""  },
   {
     id: 193,
     parentId: 499,
@@ -1550,7 +1550,7 @@ const employees = [
     department: "EMERGENCIES",
     positionName: "TECNICO CONTRA INCENDIO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 194,
     parentId: 351,
@@ -1558,7 +1558,7 @@ const employees = [
     department: "BI CONTROLLING",
     positionName: "ANALISTA CONTRALORIA SENIOR",
     imageName: 31210
-  },
+, globalDepartment: ""  },
   {
     id: 195,
     parentId: 63,
@@ -1566,7 +1566,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES III",
     positionName: "OPERADOR II",
     imageName: 32264
-  },
+, globalDepartment: ""  },
   {
     id: 196,
     parentId: 325,
@@ -1574,7 +1574,7 @@ const employees = [
     department: "BI PRODUCTION PLANNING",
     positionName: "ANALISTA PLANEACION PRODUCCION JUNIOR",
     imageName: 30441
-  },
+, globalDepartment: ""  },
   {
     id: 197,
     parentId: 322,
@@ -1582,7 +1582,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES II",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 198,
     parentId: 404,
@@ -1590,7 +1590,7 @@ const employees = [
     department: "BI HDPE PRODUCTION IV",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 199,
     parentId: 332,
@@ -1598,7 +1598,7 @@ const employees = [
     department: "BI TECHNICHAL LABORATORY",
     positionName: "INGENIERO LABORATORIO PLENO",
     imageName: 32279
-  },
+, globalDepartment: ""  },
   {
     id: 200,
     parentId: 676,
@@ -1606,7 +1606,7 @@ const employees = [
     department: "BI PEOPLE SERVICES",
     positionName: "COORDINADOR COMPENSACION Y BENEFICIOS",
     imageName: 32066
-  },
+, globalDepartment: ""  },
   {
     id: 201,
     parentId: 4,
@@ -1614,7 +1614,7 @@ const employees = [
     department: "BI TECHNICHAL SERVICES AND PRODUCT DEV",
     positionName: "INGENIERO SERVICIO TECNICO Y DESARROLLO PLENO",
     imageName: 30249
-  },
+, globalDepartment: ""  },
   {
     id: 202,
     parentId: 300,
@@ -1622,7 +1622,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES I",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 203,
     parentId: 682,
@@ -1630,7 +1630,7 @@ const employees = [
     department: "LEGAL & CORPORATE GOVERNANCE",
     positionName: "DIRECTOR LEGAL",
     imageName: 31845
-  },
+, globalDepartment: ""  },
   {
     id: 204,
     parentId: 692,
@@ -1638,7 +1638,7 @@ const employees = [
     department: "BI COMMERCIAL - PE FLEXIBLES",
     positionName: "GERENTE DE VENTAS",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 205,
     parentId: 4,
@@ -1646,7 +1646,7 @@ const employees = [
     department: "BI TECHNICHAL SERVICES AND PRODUCT DEV",
     positionName: "INGENIERO SERVICIO TECNICO Y DESARROLLO PLENO",
     imageName: 29889
-  },
+, globalDepartment: ""  },
   {
     id: 206,
     parentId: 0,
@@ -1654,7 +1654,7 @@ const employees = [
     department: "BI PROJECT FINANCE I",
     positionName: "ANALISTA PROJECT FINANCE SENIOR",
     imageName: 31271
-  },
+, globalDepartment: ""  },
   {
     id: 207,
     parentId: 231,
@@ -1662,7 +1662,7 @@ const employees = [
     department: "SERVICES AND CONTRACTS I",
     positionName: "ANALISTA CONTRATOS Y SERVICIOS JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 208,
     parentId: 693,
@@ -1670,7 +1670,7 @@ const employees = [
     department: "BI EXTERNAL AFFAIRS CDMX",
     positionName: "ESPECIALISTA RELACIONES INSTITUCIONALES",
     imageName: 32812
-  },
+, globalDepartment: ""  },
   {
     id: 209,
     parentId: 495,
@@ -1678,7 +1678,7 @@ const employees = [
     department: "LABORATORY II",
     positionName: "TECNICO LABORATORISTA JUNIOR",
     imageName: 40011
-  },
+, globalDepartment: ""  },
   {
     id: 210,
     parentId: 70,
@@ -1686,7 +1686,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE II",
     positionName: "TECNICO MANTENIMIENTO II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 211,
     parentId: 409,
@@ -1694,7 +1694,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES V",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 212,
     parentId: 227,
@@ -1702,7 +1702,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION II",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 213,
     parentId: 298,
@@ -1710,7 +1710,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES III",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 214,
     parentId: 223,
@@ -1718,7 +1718,7 @@ const employees = [
     department: "BI PROCESS SAFETY",
     positionName: "COORDINADOR SEGURIDAD EN PROCESOS",
     imageName: 26028
-  },
+, globalDepartment: ""  },
   {
     id: 215,
     parentId: 693,
@@ -1726,7 +1726,7 @@ const employees = [
     department: "BI EXTERNAL AFFAIRS",
     positionName: "COORDINADOR RELACIONES INSTITUCIONALES",
     imageName: 26593
-  },
+, globalDepartment: ""  },
   {
     id: 216,
     parentId: 352,
@@ -1734,7 +1734,7 @@ const employees = [
     department: "AUTOMATION MEXICO",
     positionName: "INGENIERO AUTOMATIZACION JUNIOR",
     imageName: 26917
-  },
+, globalDepartment: ""  },
   {
     id: 217,
     parentId: 678,
@@ -1742,7 +1742,7 @@ const employees = [
     department: "BI LDPE PRODUCTION IV",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 218,
     parentId: 546,
@@ -1750,7 +1750,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE III",
     positionName: "TECNICO MANTENIMIENTO IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 219,
     parentId: 505,
@@ -1758,7 +1758,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "INGENIERO ELECTRICO ESPECIALISTA",
     imageName: 27139
-  },
+, globalDepartment: ""  },
   {
     id: 220,
     parentId: 150,
@@ -1766,7 +1766,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION V",
     positionName: "OPERADOR IV",
     imageName: 27004
-  },
+, globalDepartment: ""  },
   {
     id: 221,
     parentId: 330,
@@ -1774,7 +1774,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES VI",
     positionName: "OPERADOR IV",
     imageName: 26443
-  },
+, globalDepartment: ""  },
   {
     id: 222,
     parentId: 670,
@@ -1782,7 +1782,7 @@ const employees = [
     department: "BI LDPE PRODUCTION II",
     positionName: "SUPERVISOR PRODUCCION",
     imageName: 26449
-  },
+, globalDepartment: ""  },
   {
     id: 223,
     parentId: 170,
@@ -1790,7 +1790,7 @@ const employees = [
     department: "BI HES",
     positionName: "GERENTE SSMA",
     imageName: 26098
-  },
+, globalDepartment: ""  },
   {
     id: 224,
     parentId: 292,
@@ -1798,7 +1798,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE IV",
     positionName: "TECNICO MANTENIMIENTO IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 225,
     parentId: 481,
@@ -1806,7 +1806,7 @@ const employees = [
     department: "BI LOGISTIC OPERATIONS",
     positionName: "COORDINADOR OPERADORES LOGISTICOS",
     imageName: 26111
-  },
+, globalDepartment: ""  },
   {
     id: 226,
     parentId: 581,
@@ -1814,7 +1814,7 @@ const employees = [
     department: "BI HDPE PRODUCTION",
     positionName: "TECNICO DE OPERACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 227,
     parentId: 474,
@@ -1822,7 +1822,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION IV",
     positionName: "SUPERVISOR PRODUCCION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 228,
     parentId: 495,
@@ -1830,7 +1830,7 @@ const employees = [
     department: "LABORATORY II",
     positionName: "TECNICO LABORATORISTA SENIOR",
     imageName: 28692
-  },
+, globalDepartment: ""  },
   {
     id: 229,
     parentId: 418,
@@ -1838,7 +1838,7 @@ const employees = [
     department: "BI HEALTH, ENVIRONMENT AND SAFETY",
     positionName: "MEDICO",
     imageName: 28062
-  },
+, globalDepartment: ""  },
   {
     id: 230,
     parentId: 551,
@@ -1846,7 +1846,7 @@ const employees = [
     department: "BI HDPE PRODUCTION II",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 231,
     parentId: 586,
@@ -1854,7 +1854,7 @@ const employees = [
     department: "SERVICES AND CONTRACTS I",
     positionName: "COORDINADOR CONTRATOS Y SERVICIOS",
     imageName: 25855
-  },
+, globalDepartment: ""  },
   {
     id: 232,
     parentId: 83,
@@ -1862,7 +1862,7 @@ const employees = [
     department: "BI TAX I",
     positionName: "ANALISTA IMPUESTOS SENIOR",
     imageName: 25859
-  },
+, globalDepartment: ""  },
   {
     id: 233,
     parentId: 0,
@@ -1870,7 +1870,7 @@ const employees = [
     department: "NAM EQUIPMENT EXCELLENCE AND RELIABILITY",
     positionName: "INGENIERO ESPECIALISTA DE CONFIABILIDAD",
     imageName: 26168
-  },
+, globalDepartment: ""  },
   {
     id: 234,
     parentId: 479,
@@ -1878,7 +1878,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES III",
     positionName: "INGENIERO DE EFECTIVIDAD OPERACIONAL",
     imageName: 26343
-  },
+, globalDepartment: ""  },
   {
     id: 235,
     parentId: 0,
@@ -1886,7 +1886,7 @@ const employees = [
     department: "BI ACCOUNTING III",
     positionName: "ANALISTA CONTABLE SENIOR",
     imageName: 28097
-  },
+, globalDepartment: ""  },
   {
     id: 236,
     parentId: 479,
@@ -1894,7 +1894,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES IV",
     positionName: "SUPERVISOR PRODUCCION",
     imageName: 26353
-  },
+, globalDepartment: ""  },
   {
     id: 237,
     parentId: 669,
@@ -1902,7 +1902,7 @@ const employees = [
     department: "BI LDPE PRODUCTION IV",
     positionName: "OPERADOR IV",
     imageName: 26979
-  },
+, globalDepartment: ""  },
   {
     id: 238,
     parentId: 413,
@@ -1910,7 +1910,7 @@ const employees = [
     department: "MONITORING I",
     positionName: "COORDINADOR MONITORIA",
     imageName: 28649
-  },
+, globalDepartment: ""  },
   {
     id: 239,
     parentId: 69,
@@ -1918,7 +1918,7 @@ const employees = [
     department: "BI COMMERCIAL - PE RIGID",
     positionName: "GERENTE DE CUENTA IV",
     imageName: 26381
-  },
+, globalDepartment: ""  },
   {
     id: 240,
     parentId: 322,
@@ -1926,7 +1926,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES V",
     positionName: "OPERADOR V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 241,
     parentId: 0,
@@ -1934,7 +1934,7 @@ const employees = [
     department: "GLOBAL UTILITIES & MX IMPORTS",
     positionName: "GERENTE MATERIA PRIMA Y SUMINISTROS",
     imageName: 27355
-  },
+, globalDepartment: ""  },
   {
     id: 242,
     parentId: 505,
@@ -1942,7 +1942,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: 26233
-  },
+, globalDepartment: ""  },
   {
     id: 243,
     parentId: 35,
@@ -1950,7 +1950,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE II",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 244,
     parentId: 666,
@@ -1958,7 +1958,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE",
     positionName: "SUPERVISOR MANTENIMIENTO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 245,
     parentId: 52,
@@ -1966,7 +1966,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION IV",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 246,
     parentId: 225,
@@ -1974,7 +1974,7 @@ const employees = [
     department: "BI LOGISTIC OPERATIONS",
     positionName: "ANALISTA LOGISTICA SENIOR",
     imageName: 29163
-  },
+, globalDepartment: ""  },
   {
     id: 247,
     parentId: 325,
@@ -1982,7 +1982,7 @@ const employees = [
     department: "BI PRODUCTION PLANNING",
     positionName: "ANALISTA PLANEACION PRODUCCION SENIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 248,
     parentId: 259,
@@ -1990,7 +1990,7 @@ const employees = [
     department: "BI HDPE PRODUCTION III",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 249,
     parentId: 696,
@@ -1998,7 +1998,7 @@ const employees = [
     department: "PRODUCT AND MARKET INTELIGENCE",
     positionName: "COORDINADOR GESTION DE RECICLADORES",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 250,
     parentId: 332,
@@ -2006,7 +2006,7 @@ const employees = [
     department: "BI TECHNICHAL LABORATORY",
     positionName: "INGENIERO LABORATORIO PLENO",
     imageName: 28989
-  },
+, globalDepartment: ""  },
   {
     id: 251,
     parentId: 499,
@@ -2014,7 +2014,7 @@ const employees = [
     department: "EMERGENCIES",
     positionName: "TECNICO CONTRA INCENDIO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 252,
     parentId: 499,
@@ -2022,7 +2022,7 @@ const employees = [
     department: "EMERGENCIES",
     positionName: "LIDER DE EMERGENCIAS",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 253,
     parentId: 298,
@@ -2030,7 +2030,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES II",
     positionName: "OPERADOR II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 254,
     parentId: 465,
@@ -2038,7 +2038,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES I",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 255,
     parentId: 671,
@@ -2046,7 +2046,7 @@ const employees = [
     department: "LABORATORY I",
     positionName: "TECNICO LABORATORISTA SENIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 256,
     parentId: 499,
@@ -2054,7 +2054,7 @@ const employees = [
     department: "EMERGENCIES",
     positionName: "LIDER CONTRA INCENDIO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 257,
     parentId: 214,
@@ -2062,7 +2062,7 @@ const employees = [
     department: "BI PROCESS SAFETY",
     positionName: "INGENIERO SEGURIDAD DE PROCESOS JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 258,
     parentId: 696,
@@ -2070,7 +2070,7 @@ const employees = [
     department: "PRODUCT AND MARKET INTELIGENCE",
     positionName: "INGENIERO PCR SENIOR",
     imageName: 24871
-  },
+, globalDepartment: ""  },
   {
     id: 259,
     parentId: 581,
@@ -2078,7 +2078,7 @@ const employees = [
     department: "BI HDPE PRODUCTION III",
     positionName: "SUPERVISOR PRODUCCION",
     imageName: 25743
-  },
+, globalDepartment: ""  },
   {
     id: 260,
     parentId: 670,
@@ -2086,7 +2086,7 @@ const employees = [
     department: "BI LDPE PRODUCTION",
     positionName: "TECNICO DE OPERACION",
     imageName: 25739
-  },
+, globalDepartment: ""  },
   {
     id: 261,
     parentId: 670,
@@ -2094,7 +2094,7 @@ const employees = [
     department: "BI LDPE PRODUCTION I",
     positionName: "SUPERVISOR PRODUCCION",
     imageName: 25744
-  },
+, globalDepartment: ""  },
   {
     id: 262,
     parentId: 7,
@@ -2102,7 +2102,7 @@ const employees = [
     department: "BI PAYABLE ACCOUNTS",
     positionName: "ANALISTA CUENTAS POR PAGAR PLENO",
     imageName: 24970
-  },
+, globalDepartment: ""  },
   {
     id: 263,
     parentId: 693,
@@ -2110,7 +2110,7 @@ const employees = [
     department: "BI EXTERNAL COMMUNICATION",
     positionName: "COORDINADOR COMUNICACION EXTERNA",
     imageName: 25783
-  },
+, globalDepartment: ""  },
   {
     id: 264,
     parentId: 57,
@@ -2118,7 +2118,7 @@ const employees = [
     department: "BI LABOR RELATIONSHIP",
     positionName: "COORDINADOR RELACIONES LABORALES",
     imageName: 25102
-  },
+, globalDepartment: ""  },
   {
     id: 265,
     parentId: 673,
@@ -2126,7 +2126,7 @@ const employees = [
     department: "BI IMPORTED ETHANE OPERATION",
     positionName: "INGENIERO DE MEJORA SENIOR",
     imageName: 25100
-  },
+, globalDepartment: ""  },
   {
     id: 266,
     parentId: 103,
@@ -2134,7 +2134,7 @@ const employees = [
     department: "BI TRANSPORTATION MANAGEMENT",
     positionName: "ANALISTA GESTION DE TRANSPORTES JUNIOR",
     imageName: 34026
-  },
+, globalDepartment: ""  },
   {
     id: 267,
     parentId: 284,
@@ -2142,7 +2142,7 @@ const employees = [
     department: "BI CUSTOMER SERVICES EM",
     positionName: "ANALISTA SERVICIO AL CLIENTE ME JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 268,
     parentId: 4,
@@ -2150,7 +2150,7 @@ const employees = [
     department: "BI TECHNICHAL SERVICES AND PRODUCT DEV",
     positionName: "INGENIERO SERVICIO TECNICO Y DESARROLLO JUNIOR",
     imageName: 34038
-  },
+, globalDepartment: ""  },
   {
     id: 269,
     parentId: 244,
@@ -2158,7 +2158,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE II",
     positionName: "TECNICO MANTENIMIENTO II",
     imageName: 33968
-  },
+, globalDepartment: ""  },
   {
     id: 270,
     parentId: 505,
@@ -2166,7 +2166,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "TECNICO MANTENIMIENTO III",
     imageName: 33691
-  },
+, globalDepartment: ""  },
   {
     id: 271,
     parentId: 204,
@@ -2174,7 +2174,7 @@ const employees = [
     department: "BI COMMERCIAL - PE FLEXIBLES",
     positionName: "GERENTE DE CUENTA III",
     imageName: 34576
-  },
+, globalDepartment: ""  },
   {
     id: 272,
     parentId: 244,
@@ -2182,7 +2182,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE II",
     positionName: "TECNICO MANTENIMIENTO II",
     imageName: 33976
-  },
+, globalDepartment: ""  },
   {
     id: 273,
     parentId: 562,
@@ -2190,7 +2190,7 @@ const employees = [
     department: "BI HDPE PRODUCTION IX",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 274,
     parentId: 507,
@@ -2198,7 +2198,7 @@ const employees = [
     department: "BI ORGANIZATIONAL DEVELOPMENT",
     positionName: "COORDINADOR DESARROLLO ORGANIZACIONAL",
     imageName: 34655
-  },
+, globalDepartment: ""  },
   {
     id: 275,
     parentId: 34,
@@ -2206,7 +2206,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES IV",
     positionName: "TECNICO MANTENIMIENTO II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 276,
     parentId: 475,
@@ -2214,7 +2214,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES I",
     positionName: "SUPERVISOR INSTRUMENTISTA",
     imageName: 30145
-  },
+, globalDepartment: ""  },
   {
     id: 277,
     parentId: 677,
@@ -2222,7 +2222,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE I",
     positionName: "SUPERVISOR MECANICO",
     imageName: 30353
-  },
+, globalDepartment: ""  },
   {
     id: 278,
     parentId: 163,
@@ -2230,7 +2230,7 @@ const employees = [
     department: "BI INDUSTRIAL PERFORMANCE MANAGEMENT",
     positionName: "ANALISTA DESEMPEÑO INDUSTRIAL JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 279,
     parentId: 675,
@@ -2238,7 +2238,7 @@ const employees = [
     department: "ANALYTICAL AUTOMATION",
     positionName: "SUPERVISOR AUTOMATIZACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 280,
     parentId: 540,
@@ -2246,7 +2246,7 @@ const employees = [
     department: "BI CORPORATE AND CONTRACT LAW",
     positionName: "ABOGADO",
     imageName: 32227
-  },
+, globalDepartment: ""  },
   {
     id: 281,
     parentId: 569,
@@ -2254,7 +2254,7 @@ const employees = [
     department: "OPERATIONS IT MEXICO",
     positionName: "ANALISTA SOPORTE TECNICO JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 282,
     parentId: 264,
@@ -2262,7 +2262,7 @@ const employees = [
     department: "BI LABOR RELATIONSHIP",
     positionName: "ANALISTA RELACIONES LABORALES JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 283,
     parentId: 146,
@@ -2270,7 +2270,7 @@ const employees = [
     department: "BI PRODUCTION AND SERVICES",
     positionName: "ASISTENTE EJECUTIVA",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 284,
     parentId: 167,
@@ -2278,7 +2278,7 @@ const employees = [
     department: "BI CUSTOMER SERVICES EM",
     positionName: "COORDINADOR SERVICIO AL CLIENTE ME",
     imageName: 29822
-  },
+, globalDepartment: ""  },
   {
     id: 285,
     parentId: 562,
@@ -2286,7 +2286,7 @@ const employees = [
     department: "BI HDPE PRODUCTION IX",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 286,
     parentId: 404,
@@ -2294,7 +2294,7 @@ const employees = [
     department: "BI HDPE PRODUCTION VIII",
     positionName: "OPERADOR III",
     imageName: 30055
-  },
+, globalDepartment: ""  },
   {
     id: 287,
     parentId: 389,
@@ -2302,7 +2302,7 @@ const employees = [
     department: "BI INDUSTRIAL SAFETY",
     positionName: "INGENIERO SEGURIDAD INDUSTRIAL PLENO",
     imageName: 30700
-  },
+, globalDepartment: ""  },
   {
     id: 288,
     parentId: 671,
@@ -2310,7 +2310,7 @@ const employees = [
     department: "LABORATORY I",
     positionName: "TECNICO LABORATORISTA JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 289,
     parentId: 63,
@@ -2318,7 +2318,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES III",
     positionName: "OPERADOR II",
     imageName: 32266
-  },
+, globalDepartment: ""  },
   {
     id: 290,
     parentId: 225,
@@ -2326,7 +2326,7 @@ const employees = [
     department: "BI LOGISTIC OPERATIONS",
     positionName: "ANALISTA LOGISTICA SENIOR",
     imageName: 30296
-  },
+, globalDepartment: ""  },
   {
     id: 291,
     parentId: 444,
@@ -2334,7 +2334,7 @@ const employees = [
     department: "BI HDPE PRODUCTION VI",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 292,
     parentId: 582,
@@ -2342,7 +2342,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE IV",
     positionName: "SUPERVISOR MECANICO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 293,
     parentId: 678,
@@ -2350,7 +2350,7 @@ const employees = [
     department: "BI LDPE PRODUCTION III",
     positionName: "OPERADOR IV",
     imageName: 30310
-  },
+, globalDepartment: ""  },
   {
     id: 294,
     parentId: 103,
@@ -2358,7 +2358,7 @@ const employees = [
     department: "BI TRANSPORTATION MANAGEMENT",
     positionName: "ANALISTA GESTION DE TRANSPORTES SENIOR",
     imageName: 29595
-  },
+, globalDepartment: ""  },
   {
     id: 295,
     parentId: 562,
@@ -2366,7 +2366,7 @@ const employees = [
     department: "BI HDPE PRODUCTION IX",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 296,
     parentId: 140,
@@ -2374,7 +2374,7 @@ const employees = [
     department: "BI P&O PEOPLE SERVICES",
     positionName: "ANALISTA SERVICIOS A PERSONAS PLENO",
     imageName: 32508
-  },
+, globalDepartment: ""  },
   {
     id: 297,
     parentId: 313,
@@ -2382,7 +2382,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES",
     positionName: "INGENIERO PRODUCCION SENIOR",
     imageName: 26023
-  },
+, globalDepartment: ""  },
   {
     id: 298,
     parentId: 313,
@@ -2390,7 +2390,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES II",
     positionName: "SUPERVISOR PRODUCCION",
     imageName: 26024
-  },
+, globalDepartment: ""  },
   {
     id: 299,
     parentId: 582,
@@ -2398,7 +2398,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE II",
     positionName: "SUPERVISOR MANTENIMIENTO",
     imageName: 26250
-  },
+, globalDepartment: ""  },
   {
     id: 300,
     parentId: 677,
@@ -2406,7 +2406,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES I",
     positionName: "SUPERVISOR ELECTRICO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 301,
     parentId: 581,
@@ -2414,7 +2414,7 @@ const employees = [
     department: "BI HDPE PRODUCTION",
     positionName: "TECNICO DE OPERACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 302,
     parentId: 479,
@@ -2422,7 +2422,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES",
     positionName: "TECNICO DE OPERACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 303,
     parentId: 484,
@@ -2430,7 +2430,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES II",
     positionName: "OPERADOR III",
     imageName: 26988
-  },
+, globalDepartment: ""  },
   {
     id: 304,
     parentId: 276,
@@ -2438,7 +2438,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES I",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 305,
     parentId: 418,
@@ -2446,7 +2446,7 @@ const employees = [
     department: "BI HEALTH, ENVIRONMENT AND SAFETY",
     positionName: "INGENIERO AMBIENTAL JUNIOR",
     imageName: 27146
-  },
+, globalDepartment: ""  },
   {
     id: 306,
     parentId: 276,
@@ -2454,7 +2454,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES I",
     positionName: "TECNICO MANTENIMIENTO IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 307,
     parentId: 551,
@@ -2462,7 +2462,7 @@ const employees = [
     department: "BI HDPE PRODUCTION II",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 308,
     parentId: 313,
@@ -2470,7 +2470,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES",
     positionName: "TECNICO DE OPERACION",
     imageName: 27010
-  },
+, globalDepartment: ""  },
   {
     id: 309,
     parentId: 505,
@@ -2478,7 +2478,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "TECNICO MANTENIMIENTO IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 310,
     parentId: 505,
@@ -2486,7 +2486,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "INGENIERO MECANICO JUNIOR",
     imageName: 26898
-  },
+, globalDepartment: ""  },
   {
     id: 311,
     parentId: 261,
@@ -2494,7 +2494,7 @@ const employees = [
     department: "BI LDPE PRODUCTION I",
     positionName: "OPERADOR IV",
     imageName: 27012
-  },
+, globalDepartment: ""  },
   {
     id: 312,
     parentId: 493,
@@ -2502,7 +2502,7 @@ const employees = [
     department: "BI HDPE PRODUCTION IV",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 313,
     parentId: 146,
@@ -2510,7 +2510,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES",
     positionName: "SUPERINTENDENTE PRODUCCION",
     imageName: 26310
-  },
+, globalDepartment: ""  },
   {
     id: 314,
     parentId: 632,
@@ -2518,7 +2518,7 @@ const employees = [
     department: "BI PLANNING AND LOGISTIC CONTRACTS",
     positionName: "ESPECIALISTA GESTION DESEMPEÑO LOGISTICO",
     imageName: 26456
-  },
+, globalDepartment: ""  },
   {
     id: 315,
     parentId: 52,
@@ -2526,7 +2526,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION III",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 316,
     parentId: 671,
@@ -2534,7 +2534,7 @@ const employees = [
     department: "LABORATORY I",
     positionName: "TECNICO LABORATORISTA PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 317,
     parentId: 673,
@@ -2542,7 +2542,7 @@ const employees = [
     department: "BI IMPORTED ETHANE OPERATION",
     positionName: "ANALISTA PLANEACION ETANO IMPORTADO PLENO",
     imageName: 28718
-  },
+, globalDepartment: ""  },
   {
     id: 318,
     parentId: 63,
@@ -2550,7 +2550,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES I",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 319,
     parentId: 241,
@@ -2558,7 +2558,7 @@ const employees = [
     department: "RAW MATERIAIS AND SUPPLY",
     positionName: "COORDINADOR PROCURA Y SUMINISTRO",
     imageName: 28066
-  },
+, globalDepartment: ""  },
   {
     id: 320,
     parentId: 7,
@@ -2566,7 +2566,7 @@ const employees = [
     department: "BI PAYABLE ACCOUNTS",
     positionName: "ANALISTA CUENTAS POR PAGAR PLENO",
     imageName: 25856
-  },
+, globalDepartment: ""  },
   {
     id: 321,
     parentId: 4,
@@ -2574,7 +2574,7 @@ const employees = [
     department: "BI TECHNICHAL SERVICES AND PRODUCT DEV",
     positionName: "ESPECIALISTA EN SERVICIO TECNICO Y DESARROLLO",
     imageName: 25861
-  },
+, globalDepartment: ""  },
   {
     id: 322,
     parentId: 479,
@@ -2582,7 +2582,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES II",
     positionName: "SUPERVISOR PRODUCCION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 323,
     parentId: 404,
@@ -2590,7 +2590,7 @@ const employees = [
     department: "BI HDPE PRODUCTION IV",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 324,
     parentId: 562,
@@ -2598,7 +2598,7 @@ const employees = [
     department: "BI HDPE PRODUCTION III",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 325,
     parentId: 632,
@@ -2606,7 +2606,7 @@ const employees = [
     department: "BI PRODUCTION PLANNING",
     positionName: "COORDINADOR PLANEACION DE LA PRODUCCION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 326,
     parentId: 505,
@@ -2614,7 +2614,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "INGENIERO INSTRUMENTISTA ESPECIALISTA",
     imageName: 26514
-  },
+, globalDepartment: ""  },
   {
     id: 327,
     parentId: 299,
@@ -2622,7 +2622,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE II",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: 26230
-  },
+, globalDepartment: ""  },
   {
     id: 328,
     parentId: 670,
@@ -2630,7 +2630,7 @@ const employees = [
     department: "BI LDPE PRODUCTION",
     positionName: "TECNICO DE OPERACION",
     imageName: 26399
-  },
+, globalDepartment: ""  },
   {
     id: 329,
     parentId: 78,
@@ -2638,7 +2638,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 330,
     parentId: 479,
@@ -2646,7 +2646,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES VI",
     positionName: "SUPERVISOR PRODUCCION",
     imageName: 26401
-  },
+, globalDepartment: ""  },
   {
     id: 331,
     parentId: 465,
@@ -2654,7 +2654,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES II",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 332,
     parentId: 0,
@@ -2662,7 +2662,7 @@ const employees = [
     department: "BI TECHNICHAL LABORATORY",
     positionName: "COORDINADOR LABORATORIO SERVICIO TECNICO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 333,
     parentId: 632,
@@ -2670,7 +2670,7 @@ const employees = [
     department: "BI DEMAND PLANNING",
     positionName: "COORDINADOR PLANEACION DE LA DEMANDA",
     imageName: 28999
-  },
+, globalDepartment: ""  },
   {
     id: 334,
     parentId: 313,
@@ -2678,7 +2678,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES",
     positionName: "TECNICO DE OPERACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 335,
     parentId: 0,
@@ -2686,7 +2686,7 @@ const employees = [
     department: "BI MAINTENANCE PLANNING",
     positionName: "INGENIERO PLANEACION JUNIOR",
     imageName: 29076
-  },
+, globalDepartment: ""  },
   {
     id: 336,
     parentId: 466,
@@ -2694,7 +2694,7 @@ const employees = [
     department: "INDUSTRIAL MEXICO",
     positionName: "INGENIERO PROCESOS JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 337,
     parentId: 413,
@@ -2702,7 +2702,7 @@ const employees = [
     department: "BI ACCOUNTING I",
     positionName: "ESPECIALISTA CONTABLE",
     imageName: 29084
-  },
+, globalDepartment: ""  },
   {
     id: 338,
     parentId: 418,
@@ -2710,7 +2710,7 @@ const employees = [
     department: "BI HEALTH, ENVIRONMENT AND SAFETY",
     positionName: "INGENIERO AMBIENTAL JUNIOR",
     imageName: 28902
-  },
+, globalDepartment: ""  },
   {
     id: 339,
     parentId: 402,
@@ -2718,7 +2718,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES II",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 340,
     parentId: 70,
@@ -2726,7 +2726,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES III",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 341,
     parentId: 103,
@@ -2734,7 +2734,7 @@ const employees = [
     department: "BI TRANSPORTATION MANAGEMENT",
     positionName: "ANALISTA GESTION DE TRANSPORTES SENIOR",
     imageName: 29159
-  },
+, globalDepartment: ""  },
   {
     id: 342,
     parentId: 170,
@@ -2742,7 +2742,7 @@ const employees = [
     department: "BI POLYETHYLENTE OPERATIONS",
     positionName: "GERENTE PRODUCCION",
     imageName: 25682
-  },
+, globalDepartment: ""  },
   {
     id: 343,
     parentId: 682,
@@ -2750,7 +2750,7 @@ const employees = [
     department: "SUSTAINABILITY AND CIRCULAR ECONOMY",
     positionName: "GERENTE ECONOMIA CIRCULAR Y SUSTENTABILIDAD",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 344,
     parentId: 581,
@@ -2758,7 +2758,7 @@ const employees = [
     department: "BI HDPE PRODUCTION V",
     positionName: "INGENIERO DE EFECTIVIDAD OPERACIONAL",
     imageName: 25261
-  },
+, globalDepartment: ""  },
   {
     id: 345,
     parentId: 170,
@@ -2766,7 +2766,7 @@ const employees = [
     department: "LABORATORIES-I",
     positionName: "SUPERINTENDENTE LABORATORIO",
     imageName: 25521
-  },
+, globalDepartment: ""  },
   {
     id: 346,
     parentId: 204,
@@ -2774,7 +2774,7 @@ const employees = [
     department: "BI COMMERCIAL - PE FLEXIBLES",
     positionName: "GERENTE DE CUENTA II",
     imageName: 24750
-  },
+, globalDepartment: ""  },
   {
     id: 347,
     parentId: 581,
@@ -2782,7 +2782,7 @@ const employees = [
     department: "BI HDPE PRODUCTION I",
     positionName: "INGENIERO PRODUCCION PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 348,
     parentId: 682,
@@ -2790,7 +2790,7 @@ const employees = [
     department: "BRASKEM IDESA",
     positionName: "ASISTENTE EJECUTIVA",
     imageName: 23881
-  },
+, globalDepartment: ""  },
   {
     id: 349,
     parentId: 586,
@@ -2798,7 +2798,7 @@ const employees = [
     department: "WAREHOUSE",
     positionName: "SUPERINTENDENTE ALMACEN",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 350,
     parentId: 694,
@@ -2806,7 +2806,7 @@ const employees = [
     department: "BI COLLECTION",
     positionName: "COORDINADOR DE COBRANZA",
     imageName: 24644
-  },
+, globalDepartment: ""  },
   {
     id: 351,
     parentId: 691,
@@ -2814,7 +2814,7 @@ const employees = [
     department: "BI CONTROLLING & RISKS",
     positionName: "GERENTE CONTRALORIA,RIESGOS Y MEJORA NEGOCIO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 352,
     parentId: 675,
@@ -2822,7 +2822,7 @@ const employees = [
     department: "BI INDUSTRIAL EFFECTIVENESS",
     positionName: "ESPECIALISTA SEGURIDAD FUNCIONAL",
     imageName: 25642
-  },
+, globalDepartment: ""  },
   {
     id: 353,
     parentId: 505,
@@ -2830,7 +2830,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "BECARIO CONFIABILIDAD",
     imageName: 41350
-  },
+, globalDepartment: ""  },
   {
     id: 354,
     parentId: 505,
@@ -2838,7 +2838,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "INGENIERO MANTENIMIENTO PLENO",
     imageName: 34008
-  },
+, globalDepartment: ""  },
   {
     id: 355,
     parentId: 0,
@@ -2846,7 +2846,7 @@ const employees = [
     department: "BUSINESS PROCESSES",
     positionName: "ESPECIALISTA AUDITORIA INTERNA",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 356,
     parentId: 204,
@@ -2854,7 +2854,7 @@ const employees = [
     department: "BI COMMERCIAL - PE FLEXIBLES",
     positionName: "EJECUTIVO DE CUENTA JUNIOR",
     imageName: 33785
-  },
+, globalDepartment: ""  },
   {
     id: 357,
     parentId: 409,
@@ -2862,7 +2862,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES V",
     positionName: "OPERADOR II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 358,
     parentId: 231,
@@ -2870,7 +2870,7 @@ const employees = [
     department: "SERVICES AND CONTRACTS I",
     positionName: "ANALISTA CONTRATOS Y SERVICIOS SENIOR",
     imageName: 29929
-  },
+, globalDepartment: ""  },
   {
     id: 359,
     parentId: 261,
@@ -2878,7 +2878,7 @@ const employees = [
     department: "BI LDPE PRODUCTION I",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 360,
     parentId: 562,
@@ -2886,7 +2886,7 @@ const employees = [
     department: "BI HDPE PRODUCTION II",
     positionName: "OPERADOR III",
     imageName: 30357
-  },
+, globalDepartment: ""  },
   {
     id: 361,
     parentId: 569,
@@ -2894,7 +2894,7 @@ const employees = [
     department: "OPERATIONS IT MEXICO",
     positionName: "ANALISTA SOPORTE TECNICO PLENO",
     imageName: 31481
-  },
+, globalDepartment: ""  },
   {
     id: 362,
     parentId: 953,
@@ -2902,7 +2902,7 @@ const employees = [
     department: "BI MAINTENANCE PLANNING",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 363,
     parentId: 298,
@@ -2910,7 +2910,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES I",
     positionName: "OPERADOR II",
     imageName: 30995
-  },
+, globalDepartment: ""  },
   {
     id: 364,
     parentId: 495,
@@ -2918,7 +2918,7 @@ const employees = [
     department: "LABORATORY II",
     positionName: "TECNICO LABORATORISTA JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 365,
     parentId: 157,
@@ -2926,7 +2926,7 @@ const employees = [
     department: "MATERIALS",
     positionName: "ANALISTA PROCURA Y SUMINISTRO PLENO",
     imageName: 31496
-  },
+, globalDepartment: ""  },
   {
     id: 366,
     parentId: 244,
@@ -2934,7 +2934,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE II",
     positionName: "TECNICO MANTENIMIENTO IV",
     imageName: 30271
-  },
+, globalDepartment: ""  },
   {
     id: 367,
     parentId: 116,
@@ -2942,7 +2942,7 @@ const employees = [
     department: "COMPLIANCE MEXICO",
     positionName: "ESPECIALISTA COMPLIANCE",
     imageName: 31211
-  },
+, globalDepartment: ""  },
   {
     id: 368,
     parentId: 116,
@@ -2950,7 +2950,7 @@ const employees = [
     department: "COMPLIANCE MEXICO",
     positionName: "ANALISTA COMPLIANCE PLENO",
     imageName: 29836
-  },
+, globalDepartment: ""  },
   {
     id: 369,
     parentId: 389,
@@ -2958,7 +2958,7 @@ const employees = [
     department: "BI INDUSTRIAL SAFETY",
     positionName: "INGENIERO SEGURIDAD INDUSTRIAL JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 370,
     parentId: 214,
@@ -2966,7 +2966,7 @@ const employees = [
     department: "BI PROCESS SAFETY",
     positionName: "INGENIERO SEGURIDAD DE PROCESOS SENIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 371,
     parentId: 63,
@@ -2974,7 +2974,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES IV",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 372,
     parentId: 349,
@@ -2982,7 +2982,7 @@ const employees = [
     department: "WAREHOUSE",
     positionName: "INGENIERO MATERIALES PLENO",
     imageName: 30138
-  },
+, globalDepartment: ""  },
   {
     id: 373,
     parentId: 648,
@@ -2990,7 +2990,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION III",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 374,
     parentId: 244,
@@ -2998,7 +2998,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE II",
     positionName: "TECNICO MANTENIMIENTO II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 375,
     parentId: 642,
@@ -3006,7 +3006,7 @@ const employees = [
     department: "BI CUSTOMER SERVICES IM",
     positionName: "ANALISTA SERVICIO AL CLIENTE MI PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 376,
     parentId: 231,
@@ -3014,7 +3014,7 @@ const employees = [
     department: "SERVICES AND CONTRACTS I",
     positionName: "ANALISTA CONTRATOS Y SERVICIOS PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 377,
     parentId: 671,
@@ -3022,7 +3022,7 @@ const employees = [
     department: "LABORATORY I",
     positionName: "TECNICO LABORATORISTA JUNIOR",
     imageName: 32813
-  },
+, globalDepartment: ""  },
   {
     id: 378,
     parentId: 505,
@@ -3030,7 +3030,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "INGENIERO CONFIABILIDAD SENIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 379,
     parentId: 669,
@@ -3038,7 +3038,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: 32779
-  },
+, globalDepartment: ""  },
   {
     id: 380,
     parentId: 116,
@@ -3046,7 +3046,7 @@ const employees = [
     department: "COMPLIANCE MEXICO",
     positionName: "ESPECIALISTA COMPLIANCE",
     imageName: 32519
-  },
+, globalDepartment: ""  },
   {
     id: 381,
     parentId: 404,
@@ -3054,7 +3054,7 @@ const employees = [
     department: "BI HDPE PRODUCTION VIII",
     positionName: "OPERADOR IV",
     imageName: 27058
-  },
+, globalDepartment: ""  },
   {
     id: 382,
     parentId: 474,
@@ -3062,7 +3062,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION",
     positionName: "TECNICO DE OPERACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 383,
     parentId: 70,
@@ -3070,7 +3070,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES III",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 384,
     parentId: 484,
@@ -3078,7 +3078,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES I",
     positionName: "OPERADOR V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 385,
     parentId: 298,
@@ -3086,7 +3086,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES II",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 386,
     parentId: 279,
@@ -3094,7 +3094,7 @@ const employees = [
     department: "ANALYTICAL AUTOMATION",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 387,
     parentId: 670,
@@ -3102,7 +3102,7 @@ const employees = [
     department: "BI LDPE PRODUCTION",
     positionName: "TECNICO DE OPERACION",
     imageName: 26429
-  },
+, globalDepartment: ""  },
   {
     id: 388,
     parentId: 313,
@@ -3110,7 +3110,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES",
     positionName: "ANALISTA INVENTARIOS JUNIOR",
     imageName: 26431
-  },
+, globalDepartment: ""  },
   {
     id: 389,
     parentId: 223,
@@ -3118,7 +3118,7 @@ const employees = [
     department: "BI INDUSTRIAL SAFETY",
     positionName: "COORDINADOR SEGURIDAD INDUSTRIAL",
     imageName: 26608
-  },
+, globalDepartment: ""  },
   {
     id: 390,
     parentId: 204,
@@ -3126,7 +3126,7 @@ const employees = [
     department: "BI COMMERCIAL - PE FLEXIBLES",
     positionName: "GERENTE DE CUENTA III",
     imageName: 26609
-  },
+, globalDepartment: ""  },
   {
     id: 391,
     parentId: 505,
@@ -3134,7 +3134,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: 27009
-  },
+, globalDepartment: ""  },
   {
     id: 392,
     parentId: 313,
@@ -3142,7 +3142,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES",
     positionName: "TECNICO DE OPERACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 393,
     parentId: 215,
@@ -3150,7 +3150,7 @@ const employees = [
     department: "BI EXTERNAL AFFAIRS",
     positionName: "ANALISTA RELACIONES INSTITUCIONALES JR",
     imageName: 27587
-  },
+, globalDepartment: ""  },
   {
     id: 394,
     parentId: 474,
@@ -3158,7 +3158,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION I",
     positionName: "INGENIERO PRODUCCION PLENO",
     imageName: 26435
-  },
+, globalDepartment: ""  },
   {
     id: 395,
     parentId: 7,
@@ -3166,7 +3166,7 @@ const employees = [
     department: "BI PAYABLE ACCOUNTS",
     positionName: "ANALISTA CUENTAS POR PAGAR SENIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 396,
     parentId: 352,
@@ -3174,7 +3174,7 @@ const employees = [
     department: "AUTOMATION MEXICO",
     positionName: "INGENIERO AUTOMATIZACION SENIOR",
     imageName: 26082
-  },
+, globalDepartment: ""  },
   {
     id: 397,
     parentId: 671,
@@ -3182,7 +3182,7 @@ const employees = [
     department: "LABORATORY I",
     positionName: "TECNICO LABORATORISTA SENIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 398,
     parentId: 313,
@@ -3190,7 +3190,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES V",
     positionName: "INGENIERO DE EFECTIVIDAD OPERACIONAL",
     imageName: 26467
-  },
+, globalDepartment: ""  },
   {
     id: 399,
     parentId: 696,
@@ -3198,7 +3198,7 @@ const employees = [
     department: "PRODUCT AND MARKET INTELIGENCE",
     positionName: "GERENTE DE CUENTA III",
     imageName: 27422
-  },
+, globalDepartment: ""  },
   {
     id: 400,
     parentId: 63,
@@ -3206,7 +3206,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES IV",
     positionName: "OPERADOR IV",
     imageName: 26473
-  },
+, globalDepartment: ""  },
   {
     id: 401,
     parentId: 669,
@@ -3214,7 +3214,7 @@ const employees = [
     department: "BI LDPE PRODUCTION IV",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 402,
     parentId: 677,
@@ -3222,7 +3222,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES II",
     positionName: "SUPERVISOR ESTATICO",
     imageName: 26344
-  },
+, globalDepartment: ""  },
   {
     id: 403,
     parentId: 648,
@@ -3230,7 +3230,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION II",
     positionName: "OPERADOR IV",
     imageName: 26487
-  },
+, globalDepartment: ""  },
   {
     id: 404,
     parentId: 581,
@@ -3238,7 +3238,7 @@ const employees = [
     department: "BI HDPE PRODUCTION VIII",
     positionName: "SUPERVISOR PRODUCCION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 405,
     parentId: 505,
@@ -3246,7 +3246,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "TECNICO MANTENIMIENTO IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 406,
     parentId: 227,
@@ -3254,7 +3254,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION II",
     positionName: "OPERADOR IV",
     imageName: 26494
-  },
+, globalDepartment: ""  },
   {
     id: 407,
     parentId: 474,
@@ -3262,7 +3262,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION",
     positionName: "TECNICO DE OPERACION",
     imageName: 26370
-  },
+, globalDepartment: ""  },
   {
     id: 408,
     parentId: 313,
@@ -3270,7 +3270,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES",
     positionName: "INGENIERO PRODUCCION SENIOR",
     imageName: 26987
-  },
+, globalDepartment: ""  },
   {
     id: 409,
     parentId: 479,
@@ -3278,7 +3278,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES V",
     positionName: "SUPERVISOR PRODUCCION",
     imageName: 26371
-  },
+, globalDepartment: ""  },
   {
     id: 410,
     parentId: 333,
@@ -3286,7 +3286,7 @@ const employees = [
     department: "BI DEMAND PLANNING",
     positionName: "ANALISTA PLANEACION DE LA DEMANDA SENIOR",
     imageName: 28124
-  },
+, globalDepartment: ""  },
   {
     id: 411,
     parentId: 299,
@@ -3294,7 +3294,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE II",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 412,
     parentId: 475,
@@ -3302,7 +3302,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES II",
     positionName: "SUPERVISOR ELECTRICO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 413,
     parentId: 955,
@@ -3310,7 +3310,7 @@ const employees = [
     department: "BI ACCOUNTING I",
     positionName: "GERENTE CONTABILIDAD",
     imageName: 27350
-  },
+, globalDepartment: ""  },
   {
     id: 414,
     parentId: 259,
@@ -3318,7 +3318,7 @@ const employees = [
     department: "BI HDPE PRODUCTION III",
     positionName: "OPERADOR V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 415,
     parentId: 495,
@@ -3326,7 +3326,7 @@ const employees = [
     department: "LABORATORY II",
     positionName: "TECNICO LABORATORISTA SENIOR",
     imageName: 28799
-  },
+, globalDepartment: ""  },
   {
     id: 416,
     parentId: 955,
@@ -3334,7 +3334,7 @@ const employees = [
     department: "BI TAX",
     positionName: "GERENTE FISCAL",
     imageName: 28834
-  },
+, globalDepartment: ""  },
   {
     id: 417,
     parentId: 444,
@@ -3342,7 +3342,7 @@ const employees = [
     department: "BI HDPE PRODUCTION VI",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 418,
     parentId: 223,
@@ -3350,7 +3350,7 @@ const employees = [
     department: "BI HEALTH, ENVIRONMENT AND SAFETY",
     positionName: "COORDINADOR MEDIO AMBIENTE Y SALUD",
     imageName: 25683
-  },
+, globalDepartment: ""  },
   {
     id: 419,
     parentId: 37,
@@ -3358,7 +3358,7 @@ const employees = [
     department: "BI INSTITUTIONAL MARKETING",
     positionName: "COORDINADOR MARKETING INSTITUCIONAL",
     imageName: 22731
-  },
+, globalDepartment: ""  },
   {
     id: 420,
     parentId: 225,
@@ -3366,7 +3366,7 @@ const employees = [
     department: "BI LOGISTIC OPERATIONS",
     positionName: "ANALISTA LOGISTICA JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 421,
     parentId: 487,
@@ -3374,7 +3374,7 @@ const employees = [
     department: "IMPORTS AND SUPPLY",
     positionName: "ANALISTA DESARROLLO DE PROVEEDORES PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 422,
     parentId: 541,
@@ -3382,7 +3382,7 @@ const employees = [
     department: "BI LOGISTIC CONTRACTS",
     positionName: "ANALISTA CONTRATOS LOGISTICOS JUNIOR",
     imageName: 41349
-  },
+, globalDepartment: ""  },
   {
     id: 423,
     parentId: 170,
@@ -3390,7 +3390,7 @@ const employees = [
     department: "PROCESS ENGINEERING",
     positionName: "INGENIERO PROCESOS JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 424,
     parentId: 333,
@@ -3398,7 +3398,7 @@ const employees = [
     department: "BI DEMAND PLANNING",
     positionName: "ANALISTA PLANEACION DE LA DEMANDA PLENO",
     imageName: 34046
-  },
+, globalDepartment: ""  },
   {
     id: 425,
     parentId: 63,
@@ -3406,7 +3406,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES I",
     positionName: "OPERADOR EN CAPACITACION",
     imageName: 41593
-  },
+, globalDepartment: ""  },
   {
     id: 426,
     parentId: 675,
@@ -3414,7 +3414,7 @@ const employees = [
     department: "AUTOMATION MEXICO",
     positionName: "INGENIERO AUTOMATIZACION PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 427,
     parentId: 569,
@@ -3422,7 +3422,7 @@ const employees = [
     department: "OPERATIONS IT MEXICO",
     positionName: "ANALISTA SOPORTE TECNICO PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 428,
     parentId: 34,
@@ -3430,7 +3430,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES IV",
     positionName: "TECNICO MANTENIMIENTO II",
     imageName: 33694
-  },
+, globalDepartment: ""  },
   {
     id: 429,
     parentId: 507,
@@ -3438,7 +3438,7 @@ const employees = [
     department: "BI TRAINING",
     positionName: "ANALISTA CAPACITACION PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 430,
     parentId: 150,
@@ -3446,7 +3446,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION V",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 431,
     parentId: 322,
@@ -3454,7 +3454,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES IV",
     positionName: "OPERADOR II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 432,
     parentId: 284,
@@ -3462,7 +3462,7 @@ const employees = [
     department: "BI CUSTOMER SERVICES EM",
     positionName: "ANALISTA SERVICIO AL CLIENTE ME JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 433,
     parentId: 562,
@@ -3470,7 +3470,7 @@ const employees = [
     department: "BI HDPE PRODUCTION IX",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 434,
     parentId: 500,
@@ -3478,7 +3478,7 @@ const employees = [
     department: "BI INDUSTRIAL PLANNING",
     positionName: "ANALISTA PLANEACION INDUSTRIAL PLENO",
     imageName: 29776
-  },
+, globalDepartment: ""  },
   {
     id: 435,
     parentId: 34,
@@ -3486,7 +3486,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES IV",
     positionName: "TECNICO MANTENIMIENTO III",
     imageName: 32133
-  },
+, globalDepartment: ""  },
   {
     id: 436,
     parentId: 277,
@@ -3494,7 +3494,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE I",
     positionName: "TECNICO MANTENIMIENTO IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 437,
     parentId: 313,
@@ -3502,7 +3502,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES",
     positionName: "TECNICO DE OPERACION",
     imageName: 29827
-  },
+, globalDepartment: ""  },
   {
     id: 438,
     parentId: 167,
@@ -3510,7 +3510,7 @@ const employees = [
     department: "BI CUSTOMER SERVICES",
     positionName: "ANALISTA FACTURACION JUNIOR",
     imageName: 30695
-  },
+, globalDepartment: ""  },
   {
     id: 439,
     parentId: 646,
@@ -3518,7 +3518,7 @@ const employees = [
     department: "BI HDPE PRODUCTION II",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 440,
     parentId: 551,
@@ -3526,7 +3526,7 @@ const employees = [
     department: "BI HDPE PRODUCTION II",
     positionName: "OPERADOR III",
     imageName: 30056
-  },
+, globalDepartment: ""  },
   {
     id: 441,
     parentId: 495,
@@ -3534,7 +3534,7 @@ const employees = [
     department: "LABORATORY II",
     positionName: "TECNICO LABORATORISTA JUNIOR",
     imageName: 32259
-  },
+, globalDepartment: ""  },
   {
     id: 442,
     parentId: 52,
@@ -3542,7 +3542,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION I",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 443,
     parentId: 56,
@@ -3550,7 +3550,7 @@ const employees = [
     department: "BI IMPORTED ETHANE OPERATION",
     positionName: "TECNICO DE OPERACION",
     imageName: 29857
-  },
+, globalDepartment: ""  },
   {
     id: 444,
     parentId: 581,
@@ -3558,7 +3558,7 @@ const employees = [
     department: "BI HDPE PRODUCTION VI",
     positionName: "SUPERVISOR PRODUCCION",
     imageName: 30222
-  },
+, globalDepartment: ""  },
   {
     id: 445,
     parentId: 484,
@@ -3566,7 +3566,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES I",
     positionName: "OPERADOR III",
     imageName: 32275
-  },
+, globalDepartment: ""  },
   {
     id: 446,
     parentId: 222,
@@ -3574,7 +3574,7 @@ const employees = [
     department: "BI LDPE PRODUCTION III",
     positionName: "OPERADOR II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 447,
     parentId: 669,
@@ -3582,7 +3582,7 @@ const employees = [
     department: "BI LDPE PRODUCTION IV",
     positionName: "OPERADOR II",
     imageName: 30300
-  },
+, globalDepartment: ""  },
   {
     id: 448,
     parentId: 562,
@@ -3590,7 +3590,7 @@ const employees = [
     department: "BI HDPE PRODUCTION VII",
     positionName: "OPERADOR III",
     imageName: 31231
-  },
+, globalDepartment: ""  },
   {
     id: 449,
     parentId: 300,
@@ -3598,7 +3598,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES I",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: 30770
-  },
+, globalDepartment: ""  },
   {
     id: 450,
     parentId: 692,
@@ -3606,7 +3606,7 @@ const employees = [
     department: "COMMERCIAL POLYOLEFINS MEXICO",
     positionName: "ASISTENTE EJECUTIVA",
     imageName: 29634
-  },
+, globalDepartment: ""  },
   {
     id: 451,
     parentId: 969,
@@ -3614,7 +3614,7 @@ const employees = [
     department: "BI COMPENSATION AND BENEFITS I",
     positionName: "ANALISTA REMUNERACION Y BENEFICIOS SENIOR",
     imageName: 32557
-  },
+, globalDepartment: ""  },
   {
     id: 452,
     parentId: 343,
@@ -3622,7 +3622,7 @@ const employees = [
     department: "SUSTAINABILITY AND CIRCULAR ECONOMY",
     positionName: "ANALISTA SUSTENTABILIDAD JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 453,
     parentId: 259,
@@ -3630,7 +3630,7 @@ const employees = [
     department: "BI HDPE PRODUCTION III",
     positionName: "OPERADOR II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 454,
     parentId: 624,
@@ -3638,7 +3638,7 @@ const employees = [
     department: "SERVICES AND CONTRACTS",
     positionName: "ANALISTA CONTRATOS Y SERVICIOS SENIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 455,
     parentId: 214,
@@ -3646,7 +3646,7 @@ const employees = [
     department: "BI PROCESS SAFETY",
     positionName: "INGENIERO SEGURIDAD DE PROCESOS PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 456,
     parentId: 63,
@@ -3654,7 +3654,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES IV",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 457,
     parentId: 332,
@@ -3662,7 +3662,7 @@ const employees = [
     department: "BI TECHNICHAL LABORATORY",
     positionName: "INGENIERO LABORATORIO JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 458,
     parentId: 156,
@@ -3670,7 +3670,7 @@ const employees = [
     department: "PROCESS ENGINEERING",
     positionName: "INGENIERO PROCESOS SENIOR",
     imageName: 26026
-  },
+, globalDepartment: ""  },
   {
     id: 459,
     parentId: 546,
@@ -3678,7 +3678,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE II",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 460,
     parentId: 444,
@@ -3686,7 +3686,7 @@ const employees = [
     department: "BI HDPE PRODUCTION VI",
     positionName: "OPERADOR V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 461,
     parentId: 227,
@@ -3694,7 +3694,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION II",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 462,
     parentId: 389,
@@ -3702,7 +3702,7 @@ const employees = [
     department: "BI INDUSTRIAL SAFETY",
     positionName: "INGENIERO SEGURIDAD INDUSTRIAL PLENO",
     imageName: 27568
-  },
+, globalDepartment: ""  },
   {
     id: 463,
     parentId: 0,
@@ -3710,7 +3710,7 @@ const employees = [
     department: "CONTINUOUS IMPROVEMENT & GPS",
     positionName: "INGENIERO MEJORA CONTINUA SENIOR",
     imageName: 26027
-  },
+, globalDepartment: ""  },
   {
     id: 464,
     parentId: 56,
@@ -3718,7 +3718,7 @@ const employees = [
     department: "BI IMPORTED ETHANE OPERATION",
     positionName: "TECNICO DE OPERACION",
     imageName: 26425
-  },
+, globalDepartment: ""  },
   {
     id: 465,
     parentId: 313,
@@ -3726,7 +3726,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES III",
     positionName: "SUPERVISOR PRODUCCION",
     imageName: 26592
-  },
+, globalDepartment: ""  },
   {
     id: 466,
     parentId: 170,
@@ -3734,7 +3734,7 @@ const employees = [
     department: "INDUSTRIAL MEXICO",
     positionName: "SUPERINTENDENTE DE PROCESOS",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 467,
     parentId: 345,
@@ -3742,7 +3742,7 @@ const employees = [
     department: "LABORATORIES-I",
     positionName: "INGENIERO LABORATORISTA SENIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 468,
     parentId: 409,
@@ -3750,7 +3750,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES V",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 469,
     parentId: 150,
@@ -3758,7 +3758,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION V",
     positionName: "OPERADOR IV",
     imageName: 26931
-  },
+, globalDepartment: ""  },
   {
     id: 470,
     parentId: 507,
@@ -3766,7 +3766,7 @@ const employees = [
     department: "BI TRAINING",
     positionName: "COORDINADOR CAPACITACION",
     imageName: 27147
-  },
+, globalDepartment: ""  },
   {
     id: 471,
     parentId: 505,
@@ -3774,7 +3774,7 @@ const employees = [
     department: "RELIABILITY I",
     positionName: "TECNICO MANTENIMIENTO IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 472,
     parentId: 52,
@@ -3782,7 +3782,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION V",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 473,
     parentId: 581,
@@ -3790,7 +3790,7 @@ const employees = [
     department: "BI HDPE PRODUCTION",
     positionName: "TECNICO DE OPERACION",
     imageName: 27039
-  },
+, globalDepartment: ""  },
   {
     id: 474,
     parentId: 146,
@@ -3798,7 +3798,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION",
     positionName: "SUPERINTENDENTE PRODUCCION",
     imageName: 26084
-  },
+, globalDepartment: ""  },
   {
     id: 475,
     parentId: 666,
@@ -3806,7 +3806,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES",
     positionName: "SUPERINTENDENTE MANTENIMIENTO",
     imageName: 26307
-  },
+, globalDepartment: ""  },
   {
     id: 476,
     parentId: 465,
@@ -3814,7 +3814,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES I",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 477,
     parentId: 244,
@@ -3822,7 +3822,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 478,
     parentId: 238,
@@ -3830,7 +3830,7 @@ const employees = [
     department: "MONITORING I",
     positionName: "ANALISTA MEJORA DE NEGOCIO SENIOR",
     imageName: 26112
-  },
+, globalDepartment: ""  },
   {
     id: 479,
     parentId: 146,
@@ -3838,7 +3838,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES",
     positionName: "SUPERINTENDENTE PRODUCCION",
     imageName: 26342
-  },
+, globalDepartment: ""  },
   {
     id: 480,
     parentId: 646,
@@ -3846,7 +3846,7 @@ const employees = [
     department: "BI HDPE PRODUCTION I",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 481,
     parentId: 690,
@@ -3854,7 +3854,7 @@ const employees = [
     department: "BI LOGISTICS",
     positionName: "GERENTE LOGISTICA",
     imageName: 28095
-  },
+, globalDepartment: ""  },
   {
     id: 482,
     parentId: 499,
@@ -3862,7 +3862,7 @@ const employees = [
     department: "EMERGENCIES",
     positionName: "LIDER CONTRA INCENDIO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 483,
     parentId: 83,
@@ -3870,7 +3870,7 @@ const employees = [
     department: "BI TAX I",
     positionName: "ANALISTA IMPUESTOS PLENO",
     imageName: 28102
-  },
+, globalDepartment: ""  },
   {
     id: 484,
     parentId: 313,
@@ -3878,7 +3878,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES I",
     positionName: "SUPERVISOR PRODUCCION",
     imageName: 26498
-  },
+, globalDepartment: ""  },
   {
     id: 485,
     parentId: 675,
@@ -3886,7 +3886,7 @@ const employees = [
     department: "AUTOMATION MEXICO",
     positionName: "INGENIERO AUTOMATIZACION SENIOR",
     imageName: 28103
-  },
+, globalDepartment: ""  },
   {
     id: 486,
     parentId: 69,
@@ -3894,7 +3894,7 @@ const employees = [
     department: "BI COMMERCIAL - PE RIGID",
     positionName: "GERENTE DE CUENTA III",
     imageName: 27337
-  },
+, globalDepartment: ""  },
   {
     id: 487,
     parentId: 241,
@@ -3902,7 +3902,7 @@ const employees = [
     department: "IMPORTS AND SUPPLY",
     positionName: "COORDINADOR DE IMPORTACION Y SUMINISTROS",
     imageName: 28125
-  },
+, globalDepartment: ""  },
   {
     id: 488,
     parentId: 204,
@@ -3910,7 +3910,7 @@ const employees = [
     department: "BI COMMERCIAL - PE FLEXIBLES",
     positionName: "GERENTE DE CUENTA III",
     imageName: 27801
-  },
+, globalDepartment: ""  },
   {
     id: 489,
     parentId: 157,
@@ -3918,7 +3918,7 @@ const employees = [
     department: "MATERIALS",
     positionName: "ANALISTA PROCURA Y SUMINISTRO SENIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 490,
     parentId: 562,
@@ -3926,7 +3926,7 @@ const employees = [
     department: "BI HDPE PRODUCTION III",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 491,
     parentId: 572,
@@ -3934,7 +3934,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES III",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 492,
     parentId: 484,
@@ -3942,7 +3942,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES I",
     positionName: "OPERADOR IV",
     imageName: 26412
-  },
+, globalDepartment: ""  },
   {
     id: 493,
     parentId: 581,
@@ -3950,7 +3950,7 @@ const employees = [
     department: "BI HDPE PRODUCTION IV",
     positionName: "SUPERVISOR PRODUCCION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 494,
     parentId: 677,
@@ -3958,7 +3958,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES",
     positionName: "AUXILIAR MANTENIMIENTO",
     imageName: 29162
-  },
+, globalDepartment: ""  },
   {
     id: 495,
     parentId: 345,
@@ -3966,7 +3966,7 @@ const employees = [
     department: "LABORATORY II",
     positionName: "SUPERVISOR DE LABORATORIO",
     imageName: 28793
-  },
+, globalDepartment: ""  },
   {
     id: 496,
     parentId: 55,
@@ -3974,7 +3974,7 @@ const employees = [
     department: "MATERIALS, SERVICES AND CONTRACTS",
     positionName: "ANALISTA PROCURA Y SUMINISTRO PLENO",
     imageName: 28835
-  },
+, globalDepartment: ""  },
   {
     id: 497,
     parentId: 582,
@@ -3982,7 +3982,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE",
     positionName: "INGENIERO MANTENIMIENTO SENIOR",
     imageName: 29149
-  },
+, globalDepartment: ""  },
   {
     id: 498,
     parentId: 349,
@@ -3990,7 +3990,7 @@ const employees = [
     department: "WAREHOUSE",
     positionName: "SUPERVISOR ALMACEN",
     imageName: 29154
-  },
+, globalDepartment: ""  },
   {
     id: 499,
     parentId: 223,
@@ -3998,7 +3998,7 @@ const employees = [
     department: "EMERGENCIES",
     positionName: "COORDINADOR EMERGENCIAS",
     imageName: 25671
-  },
+, globalDepartment: ""  },
   {
     id: 500,
     parentId: 170,
@@ -4006,7 +4006,7 @@ const employees = [
     department: "PROCESS ENGINEERING",
     positionName: "GERENTE PROCESOS",
     imageName: 24873
-  },
+, globalDepartment: ""  },
   {
     id: 501,
     parentId: 667,
@@ -4014,7 +4014,7 @@ const employees = [
     department: "BI SOCIAL RESPONSIBILITY",
     positionName: "ANALISTA RESPONSABILIDAD SOCIAL PLENO",
     imageName: 24155
-  },
+, globalDepartment: ""  },
   {
     id: 502,
     parentId: 69,
@@ -4022,7 +4022,7 @@ const employees = [
     department: "BI COMMERCIAL - PE RIGID",
     positionName: "GERENTE DE CUENTA IV",
     imageName: 24902
-  },
+, globalDepartment: ""  },
   {
     id: 503,
     parentId: 581,
@@ -4030,7 +4030,7 @@ const employees = [
     department: "BI HDPE PRODUCTION",
     positionName: "ESPECIALISTA DE PRODUCCION",
     imageName: 25737
-  },
+, globalDepartment: ""  },
   {
     id: 504,
     parentId: 581,
@@ -4038,7 +4038,7 @@ const employees = [
     department: "BI HDPE PRODUCTION",
     positionName: "TECNICO DE OPERACION",
     imageName: 25750
-  },
+, globalDepartment: ""  },
   {
     id: 505,
     parentId: 170,
@@ -4046,7 +4046,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "SUPERINTENDENTE CONFIABILIDAD",
     imageName: 24843
-  },
+, globalDepartment: ""  },
   {
     id: 506,
     parentId: 69,
@@ -4054,7 +4054,7 @@ const employees = [
     department: "BI COMMERCIAL - PE RIGID",
     positionName: "GERENTE DE CUENTA II",
     imageName: 25637
-  },
+, globalDepartment: ""  },
   {
     id: 507,
     parentId: 37,
@@ -4062,7 +4062,7 @@ const employees = [
     department: "BI PEOPLE DEVELOPMENT I",
     positionName: "GERENTE DESARROLLO HUMANO",
     imageName: 23733
-  },
+, globalDepartment: ""  },
   {
     id: 508,
     parentId: 0,
@@ -4070,7 +4070,7 @@ const employees = [
     department: "QUALITY MEXICO",
     positionName: "COORDINADOR ASEGURAMIENTO DE CALIDAD",
     imageName: 34627
-  },
+, globalDepartment: ""  },
   {
     id: 509,
     parentId: 244,
@@ -4078,7 +4078,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES I",
     positionName: "TECNICO MANTENIMIENTO II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 510,
     parentId: 667,
@@ -4086,7 +4086,7 @@ const employees = [
     department: "BI SOCIAL RESPONSIBILITY",
     positionName: "ANALISTA RESPONSABILIDAD SOCIAL JUNIOR",
     imageName: 34014
-  },
+, globalDepartment: ""  },
   {
     id: 511,
     parentId: 78,
@@ -4094,7 +4094,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE",
     positionName: "TECNICO MANTENIMIENTO II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 512,
     parentId: 103,
@@ -4102,7 +4102,7 @@ const employees = [
     department: "BI TRANSPORTATION MANAGEMENT",
     positionName: "ANALISTA GESTION DE TRANSPORTES PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 513,
     parentId: 189,
@@ -4110,7 +4110,7 @@ const employees = [
     department: "BI COMMERCIAL PERFOR. MGNT & MKT INTEL",
     positionName: "ANALISTA DESEMPEÑO COMERCIAL PLENO",
     imageName: 33786
-  },
+, globalDepartment: ""  },
   {
     id: 514,
     parentId: 551,
@@ -4118,7 +4118,7 @@ const employees = [
     department: "BI HDPE PRODUCTION II",
     positionName: "OPERADOR II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 515,
     parentId: 313,
@@ -4126,7 +4126,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES",
     positionName: "TECNICO DE OPERACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 516,
     parentId: 562,
@@ -4134,7 +4134,7 @@ const employees = [
     department: "BI HDPE PRODUCTION IX",
     positionName: "OPERADOR III",
     imageName: 29968
-  },
+, globalDepartment: ""  },
   {
     id: 517,
     parentId: 581,
@@ -4142,7 +4142,7 @@ const employees = [
     department: "BI HDPE PRODUCTION",
     positionName: "SUPERVISOR ALMACEN",
     imageName: 30803
-  },
+, globalDepartment: ""  },
   {
     id: 518,
     parentId: 587,
@@ -4150,7 +4150,7 @@ const employees = [
     department: "BI FINANCIAL PLANNING AND RISKS",
     positionName: "ANALISTA PLANEACION FINANCIERA Y RIES SR",
     imageName: 30965
-  },
+, globalDepartment: ""  },
   {
     id: 519,
     parentId: 493,
@@ -4158,7 +4158,7 @@ const employees = [
     department: "BI HDPE PRODUCTION II",
     positionName: "OPERADOR III",
     imageName: 30359
-  },
+, globalDepartment: ""  },
   {
     id: 520,
     parentId: 298,
@@ -4166,7 +4166,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES III",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 521,
     parentId: 505,
@@ -4174,7 +4174,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "INGENIERO MECANICO JUNIOR",
     imageName: 31487
-  },
+, globalDepartment: ""  },
   {
     id: 522,
     parentId: 171,
@@ -4182,7 +4182,7 @@ const employees = [
     department: "BI INTERNAL COMMUNICATION",
     positionName: "ANALISTA COMUNICACION INTERNA SENIOR",
     imageName: 32152
-  },
+, globalDepartment: ""  },
   {
     id: 523,
     parentId: 125,
@@ -4190,7 +4190,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE",
     positionName: "TECNICO MANTENIMIENTO IV",
     imageName: 30270
-  },
+, globalDepartment: ""  },
   {
     id: 524,
     parentId: 130,
@@ -4198,7 +4198,7 @@ const employees = [
     department: "BI MAINTENANCE",
     positionName: "INGENIERO MANTENIMIENTO PLENO",
     imageName: 30268
-  },
+, globalDepartment: ""  },
   {
     id: 525,
     parentId: 352,
@@ -4206,7 +4206,7 @@ const employees = [
     department: "AUTOMATION MEXICO",
     positionName: "INGENIERO AUTOMATIZACION JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 526,
     parentId: 495,
@@ -4214,7 +4214,7 @@ const employees = [
     department: "LABORATORY II",
     positionName: "TECNICO LABORATORISTA JUNIOR",
     imageName: 32260
-  },
+, globalDepartment: ""  },
   {
     id: 527,
     parentId: 499,
@@ -4222,7 +4222,7 @@ const employees = [
     department: "EMERGENCIES",
     positionName: "TECNICO CONTRA INCENDIO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 528,
     parentId: 615,
@@ -4230,7 +4230,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES IV",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 529,
     parentId: 150,
@@ -4238,7 +4238,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION V",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 530,
     parentId: 444,
@@ -4246,7 +4246,7 @@ const employees = [
     department: "BI HDPE PRODUCTION VI",
     positionName: "OPERADOR III",
     imageName: 32265
-  },
+, globalDepartment: ""  },
   {
     id: 531,
     parentId: 678,
@@ -4254,7 +4254,7 @@ const employees = [
     department: "BI LDPE PRODUCTION II",
     positionName: "OPERADOR II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 532,
     parentId: 284,
@@ -4262,7 +4262,7 @@ const employees = [
     department: "BI CUSTOMER SERVICES EM",
     positionName: "ANALISTA SERVICIO AL CLIENTE ME PLENO",
     imageName: 30442
-  },
+, globalDepartment: ""  },
   {
     id: 533,
     parentId: 402,
@@ -4270,7 +4270,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES II",
     positionName: "TECNICO MANTENIMIENTO IV",
     imageName: 32274
-  },
+, globalDepartment: ""  },
   {
     id: 534,
     parentId: 330,
@@ -4278,7 +4278,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES VI",
     positionName: "OPERADOR III",
     imageName: 32277
-  },
+, globalDepartment: ""  },
   {
     id: 535,
     parentId: 332,
@@ -4286,7 +4286,7 @@ const employees = [
     department: "BI TECHNICHAL LABORATORY",
     positionName: "INGENIERO LABORATORIO JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 536,
     parentId: 148,
@@ -4294,7 +4294,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE",
     positionName: "SUPERVISOR MANTENIMIENTO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 537,
     parentId: 624,
@@ -4302,7 +4302,7 @@ const employees = [
     department: "SERVICES AND CONTRACTS",
     positionName: "ANALISTA CONTRATOS Y SERVICIOS PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 538,
     parentId: 162,
@@ -4310,7 +4310,7 @@ const employees = [
     department: "BI STRATEGIC RAW MATERIAL AND ENGERGY",
     positionName: "ESPECIALISTA DESARROLLO DE NEGOCIOS",
     imageName: 32751
-  },
+, globalDepartment: ""  },
   {
     id: 539,
     parentId: 632,
@@ -4318,7 +4318,7 @@ const employees = [
     department: "BI LOGISTIC PERFORMANCE MANAGEMENT",
     positionName: "ANALISTA GESTION DESEMPEÑO LOGISTICO PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 540,
     parentId: 203,
@@ -4326,7 +4326,7 @@ const employees = [
     department: "LEGAL & CORPORATE GOVERNANCE",
     positionName: "ABOGADO ESPECIALISTA",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 541,
     parentId: 632,
@@ -4334,7 +4334,7 @@ const employees = [
     department: "BI LOGISTIC CONTRACTS",
     positionName: "COORDINADOR CONTRATOS",
     imageName: 32626
-  },
+, globalDepartment: ""  },
   {
     id: 542,
     parentId: 144,
@@ -4342,7 +4342,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE I",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 543,
     parentId: 648,
@@ -4350,7 +4350,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION III",
     positionName: "OPERADOR IV",
     imageName: 26914
-  },
+, globalDepartment: ""  },
   {
     id: 544,
     parentId: 169,
@@ -4358,7 +4358,7 @@ const employees = [
     department: "DISTRIBUTION AND EXPORTS",
     positionName: "GERENTE DE CUENTA III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 545,
     parentId: 34,
@@ -4366,7 +4366,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES IV",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 546,
     parentId: 677,
@@ -4374,7 +4374,7 @@ const employees = [
     department: "BI HDPE POLYETHYLENE MAINTENANCE II",
     positionName: "SUPERVISOR MECANICO",
     imageName: 26267
-  },
+, globalDepartment: ""  },
   {
     id: 547,
     parentId: 35,
@@ -4382,7 +4382,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE III",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 548,
     parentId: 52,
@@ -4390,7 +4390,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION IV",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 549,
     parentId: 227,
@@ -4398,7 +4398,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION II",
     positionName: "OPERADOR IV",
     imageName: 26933
-  },
+, globalDepartment: ""  },
   {
     id: 550,
     parentId: 479,
@@ -4406,7 +4406,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES",
     positionName: "INGENIERO PRODUCCION JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 551,
     parentId: 581,
@@ -4414,7 +4414,7 @@ const employees = [
     department: "BI HDPE PRODUCTION II",
     positionName: "SUPERVISOR PRODUCCION",
     imageName: 27016
-  },
+, globalDepartment: ""  },
   {
     id: 552,
     parentId: 227,
@@ -4422,7 +4422,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION II",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 553,
     parentId: 330,
@@ -4430,7 +4430,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES VI",
     positionName: "OPERADOR V",
     imageName: 26448
-  },
+, globalDepartment: ""  },
   {
     id: 554,
     parentId: 615,
@@ -4438,7 +4438,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES IV",
     positionName: "TECNICO MANTENIMIENTO IV",
     imageName: 26901
-  },
+, globalDepartment: ""  },
   {
     id: 555,
     parentId: 673,
@@ -4446,7 +4446,7 @@ const employees = [
     department: "BI IMPORTED ETHANE OPERATION",
     positionName: "TECNICO DE OPERACION",
     imageName: 27052
-  },
+, globalDepartment: ""  },
   {
     id: 556,
     parentId: 500,
@@ -4454,7 +4454,7 @@ const employees = [
     department: "BI INDUSTRIAL PLANNING",
     positionName: "INGENIERO DE PROYECTOS SENIOR",
     imageName: 28018
-  },
+, globalDepartment: ""  },
   {
     id: 557,
     parentId: 140,
@@ -4462,7 +4462,7 @@ const employees = [
     department: "BI P&O PEOPLE SERVICES",
     positionName: "ANALISTA FACILITIES PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 558,
     parentId: 646,
@@ -4470,7 +4470,7 @@ const employees = [
     department: "BI HDPE PRODUCTION I",
     positionName: "OPERADOR V",
     imageName: 26951
-  },
+, globalDepartment: ""  },
   {
     id: 559,
     parentId: 505,
@@ -4478,7 +4478,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: 27055
-  },
+, globalDepartment: ""  },
   {
     id: 560,
     parentId: 52,
@@ -4486,7 +4486,7 @@ const employees = [
     department: "BI HDPE PRODUCTION VIII",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 561,
     parentId: 236,
@@ -4494,7 +4494,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES V",
     positionName: "OPERADOR V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 562,
     parentId: 581,
@@ -4502,7 +4502,7 @@ const employees = [
     department: "BI HDPE PRODUCTION IX",
     positionName: "SUPERVISOR PRODUCCION",
     imageName: 28447
-  },
+, globalDepartment: ""  },
   {
     id: 563,
     parentId: 694,
@@ -4510,7 +4510,7 @@ const employees = [
     department: "BI CREDIT",
     positionName: "COORDINADOR DE CREDITO",
     imageName: 28694
-  },
+, globalDepartment: ""  },
   {
     id: 564,
     parentId: 499,
@@ -4518,7 +4518,7 @@ const employees = [
     department: "EMERGENCIES",
     positionName: "TECNICO CONTRA INCENDIO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 565,
     parentId: 204,
@@ -4526,7 +4526,7 @@ const employees = [
     department: "BI COMMERCIAL - PE FLEXIBLES",
     positionName: "GERENTE DE CUENTA III",
     imageName: 26346
-  },
+, globalDepartment: ""  },
   {
     id: 566,
     parentId: 150,
@@ -4534,7 +4534,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION V",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 567,
     parentId: 444,
@@ -4542,7 +4542,7 @@ const employees = [
     department: "BI HDPE PRODUCTION VI",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 568,
     parentId: 671,
@@ -4550,7 +4550,7 @@ const employees = [
     department: "LABORATORY I",
     positionName: "TECNICO LABORATORISTA SENIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 569,
     parentId: 180,
@@ -4558,7 +4558,7 @@ const employees = [
     department: "OPERATIONS IT MEXICO",
     positionName: "COORDINADOR OPERACION Y SEGURIDAD",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 570,
     parentId: 0,
@@ -4566,7 +4566,7 @@ const employees = [
     department: "BI MAINTENANCE PLANNING",
     positionName: "INGENIERO PLANEACION PLENO",
     imageName: 28589
-  },
+, globalDepartment: ""  },
   {
     id: 571,
     parentId: 276,
@@ -4574,7 +4574,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES I",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 572,
     parentId: 475,
@@ -4582,7 +4582,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES III",
     positionName: "SUPERVISOR MECANICO ESTATICO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 573,
     parentId: 231,
@@ -4590,7 +4590,7 @@ const employees = [
     department: "SERVICES AND CONTRACTS I",
     positionName: "ANALISTA CONTRATOS Y SERVICIOS PLENO",
     imageName: 29065
-  },
+, globalDepartment: ""  },
   {
     id: 574,
     parentId: 495,
@@ -4598,7 +4598,7 @@ const employees = [
     department: "LABORATORY II",
     positionName: "TECNICO LABORATORISTA JUNIOR",
     imageName: 28788
-  },
+, globalDepartment: ""  },
   {
     id: 575,
     parentId: 495,
@@ -4606,7 +4606,7 @@ const employees = [
     department: "LABORATORY II",
     positionName: "TECNICO LABORATORISTA PLENO",
     imageName: 28787
-  },
+, globalDepartment: ""  },
   {
     id: 576,
     parentId: 500,
@@ -4614,7 +4614,7 @@ const employees = [
     department: "BI INDUSTRIAL PLANNING",
     positionName: "INGENIERO CONTROL DE PROYECTOS SENIOR",
     imageName: 29336
-  },
+, globalDepartment: ""  },
   {
     id: 577,
     parentId: 495,
@@ -4622,7 +4622,7 @@ const employees = [
     department: "LABORATORY II",
     positionName: "TECNICO LABORATORISTA SENIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 578,
     parentId: 171,
@@ -4630,7 +4630,7 @@ const employees = [
     department: "BI INTERNAL COMMUNICATION",
     positionName: "ANALISTA COMUNICACION INTERNA JUNIOR",
     imageName: 29102
-  },
+, globalDepartment: ""  },
   {
     id: 579,
     parentId: 562,
@@ -4638,7 +4638,7 @@ const employees = [
     department: "BI HDPE PRODUCTION IX",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 580,
     parentId: 499,
@@ -4646,7 +4646,7 @@ const employees = [
     department: "EMERGENCIES",
     positionName: "TECNICO CONTRA INCENDIO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 581,
     parentId: 342,
@@ -4654,7 +4654,7 @@ const employees = [
     department: "BI HDPE PRODUCTION",
     positionName: "SUPERINTENDENTE PRODUCCION",
     imageName: 25520
-  },
+, globalDepartment: ""  },
   {
     id: 582,
     parentId: 666,
@@ -4662,7 +4662,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE",
     positionName: "SUPERINTENDENTE MANTENIMIENTO",
     imageName: 25094
-  },
+, globalDepartment: ""  },
   {
     id: 583,
     parentId: 481,
@@ -4670,7 +4670,7 @@ const employees = [
     department: "BI QUALITY",
     positionName: "ESPECIALISTA CALIDAD",
     imageName: 24850
-  },
+, globalDepartment: ""  },
   {
     id: 584,
     parentId: 682,
@@ -4678,7 +4678,7 @@ const employees = [
     department: "BRASKEM IDESA",
     positionName: "CHOFER",
     imageName: 24643
-  },
+, globalDepartment: ""  },
   {
     id: 585,
     parentId: 0,
@@ -4686,7 +4686,7 @@ const employees = [
     department: "PROJECT",
     positionName: "INGENIERO ESPECIALISTA",
     imageName: 22744
-  },
+, globalDepartment: ""  },
   {
     id: 586,
     parentId: 0,
@@ -4694,7 +4694,7 @@ const employees = [
     department: "GLOBAL MRO AND CAPITAL, USA AND MX",
     positionName: "GERENTE MRO Y SERVICIOS",
     imageName: 23133
-  },
+, globalDepartment: ""  },
   {
     id: 587,
     parentId: 351,
@@ -4702,7 +4702,7 @@ const employees = [
     department: "BI FINANCIAL PLANNING AND RISKS",
     positionName: "COORDINADOR PLANEACION FINANCIERA Y RESGOS",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 588,
     parentId: 615,
@@ -4710,7 +4710,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES IV",
     positionName: "TECNICO MANTENIMIENTO II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 589,
     parentId: 812,
@@ -4718,7 +4718,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE",
     positionName: "TECNICO MANTENIMIENTO II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 590,
     parentId: 284,
@@ -4726,7 +4726,7 @@ const employees = [
     department: "BI CUSTOMER SERVICES EM",
     positionName: "ANALISTA SERVICIO AL CLIENTE ME PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 591,
     parentId: 812,
@@ -4734,7 +4734,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE",
     positionName: "TECNICO MANTENIMIENTO II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 592,
     parentId: 298,
@@ -4742,7 +4742,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES II",
     positionName: "OPERADOR I",
     imageName: 33690
-  },
+, globalDepartment: ""  },
   {
     id: 593,
     parentId: 493,
@@ -4750,7 +4750,7 @@ const employees = [
     department: "BI HDPE PRODUCTION IV",
     positionName: "OPERADOR II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 594,
     parentId: 200,
@@ -4758,7 +4758,7 @@ const employees = [
     department: "BI PEOPLE SERVICES",
     positionName: "ASISTENTE DE SERVICIOS",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 595,
     parentId: 162,
@@ -4766,7 +4766,7 @@ const employees = [
     department: "BI STRATEGIC RAW MATERIAL AND ENGERGY",
     positionName: "ESPECIALISTA INSUMOS ESTRATEGICOS",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 596,
     parentId: 167,
@@ -4774,7 +4774,7 @@ const employees = [
     department: "BI PROCESSES",
     positionName: "ESPECIALISTA DE PROCESOS CS",
     imageName: 33448
-  },
+, globalDepartment: ""  },
   {
     id: 597,
     parentId: 225,
@@ -4782,7 +4782,7 @@ const employees = [
     department: "BI LOGISTIC OPERATIONS",
     positionName: "ANALISTA LOGISTICA SENIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 598,
     parentId: 14,
@@ -4790,7 +4790,7 @@ const employees = [
     department: "BUSINESS SOLUTION & PROJECTS",
     positionName: "ANALISTA PROYECTOS SENIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 599,
     parentId: 499,
@@ -4798,7 +4798,7 @@ const employees = [
     department: "EMERGENCIES",
     positionName: "LIDER DE EMERGENCIAS",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 600,
     parentId: 63,
@@ -4806,7 +4806,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES I",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 601,
     parentId: 493,
@@ -4814,7 +4814,7 @@ const employees = [
     department: "BI HDPE PRODUCTION IV",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 602,
     parentId: 444,
@@ -4822,7 +4822,7 @@ const employees = [
     department: "BI HDPE PRODUCTION IX",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 603,
     parentId: 70,
@@ -4830,7 +4830,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES III",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: 30977
-  },
+, globalDepartment: ""  },
   {
     id: 604,
     parentId: 0,
@@ -4838,7 +4838,7 @@ const employees = [
     department: "CONTINUOUS IMPROVEMENT & GPS",
     positionName: "ANALISTA MEJORA CONTINUA PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 605,
     parentId: 52,
@@ -4846,7 +4846,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION II",
     positionName: "OPERADOR II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 606,
     parentId: 0,
@@ -4854,7 +4854,7 @@ const employees = [
     department: "BI MAINTENANCE PLANNING",
     positionName: "ANALISTA MANTENIMIENTO PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 607,
     parentId: 227,
@@ -4862,7 +4862,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION II",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 608,
     parentId: 465,
@@ -4870,7 +4870,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES III",
     positionName: "OPERADOR II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 609,
     parentId: 484,
@@ -4878,7 +4878,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES I",
     positionName: "OPERADOR II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 610,
     parentId: 52,
@@ -4886,7 +4886,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION I",
     positionName: "OPERADOR III",
     imageName: 29855
-  },
+, globalDepartment: ""  },
   {
     id: 611,
     parentId: 508,
@@ -4894,7 +4894,7 @@ const employees = [
     department: "QUALITY MEXICO",
     positionName: "INGENIERO CALIDAD PLENO",
     imageName: 30294
-  },
+, globalDepartment: ""  },
   {
     id: 612,
     parentId: 55,
@@ -4902,7 +4902,7 @@ const employees = [
     department: "MATERIALS, SERVICES AND CONTRACTS",
     positionName: "ANALISTA CONTRATOS Y SERVICIOS JUNIOR",
     imageName: 30725
-  },
+, globalDepartment: ""  },
   {
     id: 613,
     parentId: 418,
@@ -4910,7 +4910,7 @@ const employees = [
     department: "BI HEALTH, ENVIRONMENT AND SAFETY",
     positionName: "ENFERMERA",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 614,
     parentId: 332,
@@ -4918,7 +4918,7 @@ const employees = [
     department: "BI TECHNICHAL LABORATORY",
     positionName: "INGENIERO LABORATORIO PLENO",
     imageName: 30120
-  },
+, globalDepartment: ""  },
   {
     id: 615,
     parentId: 475,
@@ -4926,7 +4926,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES IV",
     positionName: "SUPERVISOR MECANICO",
     imageName: 32078
-  },
+, globalDepartment: ""  },
   {
     id: 616,
     parentId: 563,
@@ -4934,7 +4934,7 @@ const employees = [
     department: "BI CREDIT",
     positionName: "ANALISTA DE CREDITO JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 617,
     parentId: 895,
@@ -4942,7 +4942,7 @@ const employees = [
     department: "BI TREASURY I",
     positionName: "ANALISTA TESORERIA PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 618,
     parentId: 70,
@@ -4950,7 +4950,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE III",
     positionName: "TECNICO MANTENIMIENTO III",
     imageName: 32437
-  },
+, globalDepartment: ""  },
   {
     id: 619,
     parentId: 14,
@@ -4958,7 +4958,7 @@ const employees = [
     department: "BUSINESS SOLUTION & PROJECTS",
     positionName: "ANALISTA PROYECTOS SENIOR",
     imageName: 32701
-  },
+, globalDepartment: ""  },
   {
     id: 620,
     parentId: 103,
@@ -4966,7 +4966,7 @@ const employees = [
     department: "BI TRANSPORTATION MANAGEMENT",
     positionName: "ANALISTA GESTION DE TRANSPORTES PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 621,
     parentId: 465,
@@ -4974,7 +4974,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES III",
     positionName: "OPERADOR IV",
     imageName: 26420
-  },
+, globalDepartment: ""  },
   {
     id: 622,
     parentId: 130,
@@ -4982,7 +4982,7 @@ const employees = [
     department: "BI MAINTENANCE",
     positionName: "INGENIERO PLANEADOR DE PAROS JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 623,
     parentId: 562,
@@ -4990,7 +4990,7 @@ const employees = [
     department: "BI HDPE PRODUCTION IX",
     positionName: "OPERADOR IV",
     imageName: 26913
-  },
+, globalDepartment: ""  },
   {
     id: 624,
     parentId: 586,
@@ -4998,7 +4998,7 @@ const employees = [
     department: "SERVICES AND CONTRACTS",
     positionName: "COORDINADOR CONTRATOS Y SERVICIOS",
     imageName: 27102
-  },
+, globalDepartment: ""  },
   {
     id: 625,
     parentId: 648,
@@ -5006,7 +5006,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION III",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 626,
     parentId: 500,
@@ -5014,7 +5014,7 @@ const employees = [
     department: "BI INDUSTRIAL PLANNING",
     positionName: "INGENIERO CALIDAD DE PROYECTOS JUNIOR",
     imageName: 27214
-  },
+, globalDepartment: ""  },
   {
     id: 627,
     parentId: 78,
@@ -5022,7 +5022,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE I",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 628,
     parentId: 52,
@@ -5030,7 +5030,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION IV",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 629,
     parentId: 330,
@@ -5038,7 +5038,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES VI",
     positionName: "OPERADOR IV",
     imageName: 27003
-  },
+, globalDepartment: ""  },
   {
     id: 630,
     parentId: 277,
@@ -5046,7 +5046,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE I",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 631,
     parentId: 418,
@@ -5054,7 +5054,7 @@ const employees = [
     department: "BI HEALTH, ENVIRONMENT AND SAFETY",
     positionName: "INGENIERO AMBIENTAL PLENO",
     imageName: 26596
-  },
+, globalDepartment: ""  },
   {
     id: 632,
     parentId: 690,
@@ -5062,7 +5062,7 @@ const employees = [
     department: "BI PLANNING AND LOGISTIC CONTRACTS",
     positionName: "GERENTE CONRATOS Y PLANEACION LOGISTICA",
     imageName: 27397
-  },
+, globalDepartment: ""  },
   {
     id: 633,
     parentId: 322,
@@ -5070,7 +5070,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES IV",
     positionName: "OPERADOR III",
     imageName: 26905
-  },
+, globalDepartment: ""  },
   {
     id: 634,
     parentId: 551,
@@ -5078,7 +5078,7 @@ const employees = [
     department: "BI HDPE PRODUCTION II",
     positionName: "OPERADOR V",
     imageName: 27050
-  },
+, globalDepartment: ""  },
   {
     id: 635,
     parentId: 484,
@@ -5086,7 +5086,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES III",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 636,
     parentId: 648,
@@ -5094,7 +5094,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION III",
     positionName: "OPERADOR IV",
     imageName: 27049
-  },
+, globalDepartment: ""  },
   {
     id: 637,
     parentId: 642,
@@ -5102,7 +5102,7 @@ const employees = [
     department: "BI CUSTOMER SERVICES IM",
     positionName: "ANALISTA SERVICIO AL CLIENTE MI PLENO",
     imageName: 27634
-  },
+, globalDepartment: ""  },
   {
     id: 638,
     parentId: 298,
@@ -5110,7 +5110,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES IV",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 639,
     parentId: 484,
@@ -5118,7 +5118,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES II",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 640,
     parentId: 0,
@@ -5126,7 +5126,7 @@ const employees = [
     department: "BI MAINTENANCE PLANNING",
     positionName: "INGENIERO PLANEACION JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 641,
     parentId: 505,
@@ -5134,7 +5134,7 @@ const employees = [
     department: "RELIABILITY I",
     positionName: "SUPERVISOR MANTENIMIENTO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 642,
     parentId: 167,
@@ -5142,7 +5142,7 @@ const employees = [
     department: "BI CUSTOMER SERVICES IM",
     positionName: "COORDINADOR SERVICIO AL CLIENTE MI",
     imageName: 28683
-  },
+, globalDepartment: ""  },
   {
     id: 643,
     parentId: 666,
@@ -5150,7 +5150,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE",
     positionName: "INGENIERO MANTENIMIENTO PLENO",
     imageName: 27054
-  },
+, globalDepartment: ""  },
   {
     id: 644,
     parentId: 52,
@@ -5158,7 +5158,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION IV",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 645,
     parentId: 404,
@@ -5166,7 +5166,7 @@ const employees = [
     department: "BI HDPE PRODUCTION VII",
     positionName: "OPERADOR IV",
     imageName: 26468
-  },
+, globalDepartment: ""  },
   {
     id: 646,
     parentId: 581,
@@ -5174,7 +5174,7 @@ const employees = [
     department: "BI HDPE PRODUCTION X",
     positionName: "SUPERVISOR PRODUCCION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 647,
     parentId: 493,
@@ -5182,7 +5182,7 @@ const employees = [
     department: "BI HDPE PRODUCTION IV",
     positionName: "OPERADOR IV",
     imageName: 26962
-  },
+, globalDepartment: ""  },
   {
     id: 648,
     parentId: 474,
@@ -5190,7 +5190,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION III",
     positionName: "SUPERVISOR PRODUCCION",
     imageName: 26169
-  },
+, globalDepartment: ""  },
   {
     id: 649,
     parentId: 416,
@@ -5198,7 +5198,7 @@ const employees = [
     department: "BI TAX",
     positionName: "ANALISTA IMPUESTOS SENIOR",
     imageName: 26347
-  },
+, globalDepartment: ""  },
   {
     id: 650,
     parentId: 474,
@@ -5206,7 +5206,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION",
     positionName: "TECNICO DE OPERACION",
     imageName: 26485
-  },
+, globalDepartment: ""  },
   {
     id: 651,
     parentId: 231,
@@ -5214,7 +5214,7 @@ const employees = [
     department: "SERVICES AND CONTRACTS I",
     positionName: "ANALISTA CONTRATOS Y SERVICIOS SENIOR",
     imageName: 28104
-  },
+, globalDepartment: ""  },
   {
     id: 652,
     parentId: 0,
@@ -5222,7 +5222,7 @@ const employees = [
     department: "BI MAINTENANCE PLANNING",
     positionName: "INGENIERO PLANEACION PLENO",
     imageName: 26985
-  },
+, globalDepartment: ""  },
   {
     id: 653,
     parentId: 484,
@@ -5230,7 +5230,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES III",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 654,
     parentId: 222,
@@ -5238,7 +5238,7 @@ const employees = [
     department: "BI LDPE PRODUCTION II",
     positionName: "OPERADOR IV",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 655,
     parentId: 418,
@@ -5246,7 +5246,7 @@ const employees = [
     department: "BI HEALTH, ENVIRONMENT AND SAFETY",
     positionName: "INGENIERO HIGIENISTA JUNIOR",
     imageName: 28517
-  },
+, globalDepartment: ""  },
   {
     id: 656,
     parentId: 14,
@@ -5254,7 +5254,7 @@ const employees = [
     department: "BUSINESS SOLUTION & PROJECTS",
     positionName: "ANALISTA PROYECTOS SENIOR",
     imageName: 27543
-  },
+, globalDepartment: ""  },
   {
     id: 657,
     parentId: 148,
@@ -5262,7 +5262,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE",
     positionName: "SUPERVISOR ELECTRICO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 658,
     parentId: 581,
@@ -5270,7 +5270,7 @@ const employees = [
     department: "BI HDPE PRODUCTION",
     positionName: "INGENIERO DE EFECTIVIDAD OPERACIONAL",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 659,
     parentId: 69,
@@ -5278,7 +5278,7 @@ const employees = [
     department: "BI COMMERCIAL - PE RIGID",
     positionName: "GERENTE DE CUENTA III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 660,
     parentId: 163,
@@ -5286,7 +5286,7 @@ const employees = [
     department: "BI INDUSTRIAL PERFORMANCE MANAGEMENT",
     positionName: "ANALISTA DESEMPEÑO INDUSTRIAL PLENO",
     imageName: 28797
-  },
+, globalDepartment: ""  },
   {
     id: 661,
     parentId: 284,
@@ -5294,7 +5294,7 @@ const employees = [
     department: "BI CUSTOMER SERVICES EM",
     positionName: "ANALISTA SERVICIO AL CLIENTE ME SENIOR",
     imageName: 29113
-  },
+, globalDepartment: ""  },
   {
     id: 662,
     parentId: 389,
@@ -5302,7 +5302,7 @@ const employees = [
     department: "BI INDUSTRIAL SAFETY",
     positionName: "INGENIERO SEGURIDAD INDUSTRIAL PLENO",
     imageName: 29117
-  },
+, globalDepartment: ""  },
   {
     id: 663,
     parentId: 146,
@@ -5310,7 +5310,7 @@ const employees = [
     department: "INDUSTRIAL MEXICO",
     positionName: "COORDINADOR EFECTIVIDAD OPERACIONAL",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 664,
     parentId: 300,
@@ -5318,7 +5318,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES I",
     positionName: "TECNICO MANTENIMIENTO V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 665,
     parentId: 0,
@@ -5326,7 +5326,7 @@ const employees = [
     department: "PRODUCT STEWARDSHIP NAM",
     positionName: "INGENIERO ADMINISTRACION DEL PRODUCTO SENIOR",
     imageName: 29158
-  },
+, globalDepartment: ""  },
   {
     id: 666,
     parentId: 170,
@@ -5334,7 +5334,7 @@ const employees = [
     department: "BI MAINTENANCE",
     positionName: "GERENTE MANTENIMIENTO",
     imageName: 24872
-  },
+, globalDepartment: ""  },
   {
     id: 667,
     parentId: 343,
@@ -5342,7 +5342,7 @@ const employees = [
     department: "BI SOCIAL RESPONSIBILITY",
     positionName: "COORDINADOR RESPONSABILIDAD SOCIAL",
     imageName: 24154
-  },
+, globalDepartment: ""  },
   {
     id: 668,
     parentId: 670,
@@ -5350,7 +5350,7 @@ const employees = [
     department: "BI LDPE PRODUCTION",
     positionName: "INGENIERO PRODUCCION SENIOR",
     imageName: 25736
-  },
+, globalDepartment: ""  },
   {
     id: 669,
     parentId: 670,
@@ -5358,7 +5358,7 @@ const employees = [
     department: "BI LDPE PRODUCTION IV",
     positionName: "SUPERVISOR PRODUCCION",
     imageName: 25738
-  },
+, globalDepartment: ""  },
   {
     id: 670,
     parentId: 342,
@@ -5366,7 +5366,7 @@ const employees = [
     department: "BI LDPE PRODUCTION",
     positionName: "SUPERINTENDENTE PRODUCCION",
     imageName: 24716
-  },
+, globalDepartment: ""  },
   {
     id: 671,
     parentId: 170,
@@ -5374,7 +5374,7 @@ const employees = [
     department: "INDUSTRIAL MEXICO",
     positionName: "GERENTE MANTENIMIENTO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 672,
     parentId: 691,
@@ -5382,7 +5382,7 @@ const employees = [
     department: "FINANCE",
     positionName: "ASISTENTE EJECUTIVA",
     imageName: 25751
-  },
+, globalDepartment: ""  },
   {
     id: 673,
     parentId: 690,
@@ -5390,7 +5390,7 @@ const employees = [
     department: "BI IMPORTED ETHANE OPERATION",
     positionName: "GERENTE DE OPERACION ETANO IMPORTADO",
     imageName: 24978
-  },
+, globalDepartment: ""  },
   {
     id: 674,
     parentId: 581,
@@ -5398,7 +5398,7 @@ const employees = [
     department: "BI HDPE PRODUCTION",
     positionName: "INGENIERO PRODUCCION SENIOR",
     imageName: 25098
-  },
+, globalDepartment: ""  },
   {
     id: 675,
     parentId: 170,
@@ -5406,7 +5406,7 @@ const employees = [
     department: "BI INDUSTRIAL EFFECTIVENESS",
     positionName: "GERENTE PROYECTOS ESTRATEGICOS",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 676,
     parentId: 37,
@@ -5414,7 +5414,7 @@ const employees = [
     department: "BI COMPENSATION AND BENEFITS",
     positionName: "GERENTE REMUNERACION Y BENEFICIOS",
     imageName: 25635
-  },
+, globalDepartment: ""  },
   {
     id: 677,
     parentId: 666,
@@ -5422,7 +5422,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES",
     positionName: "SUPERINTENDENTE MANTENIMIENTO",
     imageName: 25643
-  },
+, globalDepartment: ""  },
   {
     id: 678,
     parentId: 670,
@@ -5430,7 +5430,7 @@ const employees = [
     department: "BI LDPE PRODUCTION III",
     positionName: "SUPERVISOR PRODUCCION",
     imageName: 25640
-  },
+, globalDepartment: ""  },
   {
     id: 679,
     parentId: 189,
@@ -5438,7 +5438,7 @@ const employees = [
     department: "BI COMMERCIAL PERFOR. MGNT & MKT INTEL",
     positionName: "ANALISTA DESEMPEÑO COMERCIAL JUNIOR",
     imageName: 34692
-  },
+, globalDepartment: ""  },
   {
     id: 680,
     parentId: 167,
@@ -5446,7 +5446,7 @@ const employees = [
     department: "BI PROCESSES",
     positionName: "ANALISTA PROCESOS JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 681,
     parentId: 103,
@@ -5454,7 +5454,7 @@ const employees = [
     department: "BI TRANSPORTATION MANAGEMENT",
     positionName: "ANALISTA GESTION DE TRANSPORTES JUNIOR",
     imageName: 34808
-  },
+, globalDepartment: ""  },
   {
     id: 682,
     parentId: 0,
@@ -5462,7 +5462,7 @@ const employees = [
     department: "BRASKEM IDESA",
     positionName: "DIRECTOR GENERAL",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 683,
     parentId: 581,
@@ -5470,7 +5470,7 @@ const employees = [
     department: "BI HDPE PRODUCTION",
     positionName: "TECNICO DE OPERACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 684,
     parentId: 465,
@@ -5478,7 +5478,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES III",
     positionName: "OPERADOR IV",
     imageName: 26460
-  },
+, globalDepartment: ""  },
   {
     id: 685,
     parentId: 484,
@@ -5486,7 +5486,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES I",
     positionName: "OPERADOR III",
     imageName: 31222
-  },
+, globalDepartment: ""  },
   {
     id: 686,
     parentId: 52,
@@ -5494,7 +5494,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION IV",
     positionName: "OPERADOR IV",
     imageName: 27949
-  },
+, globalDepartment: ""  },
   {
     id: 687,
     parentId: 678,
@@ -5502,7 +5502,7 @@ const employees = [
     department: "BI LDPE PRODUCTION III",
     positionName: "OPERADOR V",
     imageName: 26956
-  },
+, globalDepartment: ""  },
   {
     id: 688,
     parentId: 484,
@@ -5510,7 +5510,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES I",
     positionName: "OPERADOR V",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 689,
     parentId: 691,
@@ -5518,7 +5518,7 @@ const employees = [
     department: "BI MANAGEMENT PERFORMANCE & MKT INTEL",
     positionName: "GERENTE GESTION DESEMPEÑO E INTELIGENCIA DE MERCADO",
     imageName: 33660
-  },
+, globalDepartment: ""  },
   {
     id: 690,
     parentId: 682,
@@ -5526,7 +5526,7 @@ const employees = [
     department: "SUPPLY CHAIN MEXICO",
     positionName: "DIRECTOR DE CADENA DE SUMINISTRO",
     imageName: 32706
-  },
+, globalDepartment: ""  },
   {
     id: 691,
     parentId: 682,
@@ -5534,7 +5534,7 @@ const employees = [
     department: "FINANCE",
     positionName: "DIRECTOR FINANCIERO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 692,
     parentId: 682,
@@ -5542,7 +5542,7 @@ const employees = [
     department: "BRASKEM IDESA",
     positionName: "DIRECTOR COMERCIAL",
     imageName: 35444
-  },
+, globalDepartment: ""  },
   {
     id: 693,
     parentId: 682,
@@ -5550,7 +5550,7 @@ const employees = [
     department: "COMMS & MARKETING AND EXTERNAL AFFAIRS",
     positionName: "DIRECTOR RELACIONES INSTITUCIONALES",
     imageName: 33297
-  },
+, globalDepartment: ""  },
   {
     id: 694,
     parentId: 691,
@@ -5558,7 +5558,7 @@ const employees = [
     department: "BI CREDIT, COLLECTION & TREASURY",
     positionName: "GERENTE FINANCIERO",
     imageName: 32883
-  },
+, globalDepartment: ""  },
   {
     id: 695,
     parentId: 692,
@@ -5566,7 +5566,7 @@ const employees = [
     department: "MARKET DEVELOPMENT",
     positionName: "GERENTE DE VENTAS",
     imageName: 32887
-  },
+, globalDepartment: ""  },
   {
     id: 696,
     parentId: 692,
@@ -5574,7 +5574,7 @@ const employees = [
     department: "PRODUCT AND MARKET INTELIGENCE",
     positionName: "GERENTE DE PRODUCTO",
     imageName: 32885
-  },
+, globalDepartment: ""  },
   {
     id: 697,
     parentId: 14,
@@ -5582,7 +5582,7 @@ const employees = [
     department: "BUSINESS SOLUTION & PROJECTS",
     positionName: "ANALISTA PROYECTOS SENIOR",
     imageName: 34971
-  },
+, globalDepartment: ""  },
   {
     id: 698,
     parentId: 14,
@@ -5590,7 +5590,7 @@ const employees = [
     department: "BUSINESS SOLUTION & PROJECTS",
     positionName: "ANALISTA PROYECTOS SENIOR",
     imageName: 34973
-  },
+, globalDepartment: ""  },
   {
     id: 699,
     parentId: 125,
@@ -5598,7 +5598,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE",
     positionName: "TECNICO MANTENIMIENTO II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 700,
     parentId: 409,
@@ -5606,7 +5606,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES V",
     positionName: "OPERADOR II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 701,
     parentId: 34,
@@ -5614,7 +5614,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES IV",
     positionName: "TECNICO MANTENIMIENTO II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 702,
     parentId: 14,
@@ -5622,7 +5622,7 @@ const employees = [
     department: "BUSINESS SOLUTION & PROJECTS",
     positionName: "ANALISTA PROYECTOS PLENO",
     imageName: 34972
-  },
+, globalDepartment: ""  },
   {
     id: 703,
     parentId: 350,
@@ -5630,7 +5630,7 @@ const employees = [
     department: "BI COLLECTION",
     positionName: "ANALISTA COBRANZA PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 704,
     parentId: 274,
@@ -5638,7 +5638,7 @@ const employees = [
     department: "BI ORGANIZATIONAL DEVELOPMENT",
     positionName: "ANALISTA DESARROLLO ORGANIZACIONAL SENIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 705,
     parentId: 200,
@@ -5646,7 +5646,7 @@ const employees = [
     department: "BI PEOPLE SERVICES",
     positionName: "ESPECIALISTA DE BENEFICIOS Y SERVICIOS",
     imageName: 35079
-  },
+, globalDepartment: ""  },
   {
     id: 706,
     parentId: 292,
@@ -5654,7 +5654,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE IV",
     positionName: "TECNICO MANTENIMIENTO II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 707,
     parentId: 70,
@@ -5662,7 +5662,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE III",
     positionName: "TECNICO MANTENIMIENTO II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 708,
     parentId: 500,
@@ -5670,7 +5670,7 @@ const employees = [
     department: "BI INDUSTRIAL PLANNING",
     positionName: "INGENIERO DE PROYECTOS JUNIOR",
     imageName: 35059
-  },
+, globalDepartment: ""  },
   {
     id: 709,
     parentId: 495,
@@ -5678,7 +5678,7 @@ const employees = [
     department: "LABORATORY II",
     positionName: "TECNICO LABORATORISTA JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 710,
     parentId: 276,
@@ -5686,7 +5686,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES I",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 711,
     parentId: 35,
@@ -5694,7 +5694,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE III",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 712,
     parentId: 78,
@@ -5702,7 +5702,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE I",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 713,
     parentId: 259,
@@ -5710,7 +5710,7 @@ const employees = [
     department: "BI HDPE PRODUCTION III",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 714,
     parentId: 669,
@@ -5718,7 +5718,7 @@ const employees = [
     department: "BI LDPE PRODUCTION II",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 715,
     parentId: 669,
@@ -5726,7 +5726,7 @@ const employees = [
     department: "BI LDPE PRODUCTION I",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 716,
     parentId: 389,
@@ -5734,7 +5734,7 @@ const employees = [
     department: "BI INDUSTRIAL SAFETY",
     positionName: "ANALISTA SEGURIDAD INDUSTRIAL JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 717,
     parentId: 500,
@@ -5742,7 +5742,7 @@ const employees = [
     department: "BI INDUSTRIAL PLANNING",
     positionName: "INGENIERO ADMINISTRADOR PROYECTOS PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 718,
     parentId: 389,
@@ -5750,7 +5750,7 @@ const employees = [
     department: "BI INDUSTRIAL SAFETY",
     positionName: "INGENIERO SEGURIDAD INDUSTRIAL JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 719,
     parentId: 298,
@@ -5758,7 +5758,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES I",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 720,
     parentId: 484,
@@ -5766,7 +5766,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES I",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 721,
     parentId: 78,
@@ -5774,7 +5774,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE I",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 722,
     parentId: 412,
@@ -5782,7 +5782,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES II",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 723,
     parentId: 292,
@@ -5790,7 +5790,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE IV",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 724,
     parentId: 409,
@@ -5798,7 +5798,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES V",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 725,
     parentId: 493,
@@ -5806,7 +5806,7 @@ const employees = [
     department: "BI HDPE PRODUCTION IV",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 726,
     parentId: 615,
@@ -5814,7 +5814,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES IV",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 727,
     parentId: 203,
@@ -5822,7 +5822,7 @@ const employees = [
     department: "LEGAL & CORPORATE GOVERNANCE",
     positionName: "ABOGADO ESPECIALISTA",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 728,
     parentId: 279,
@@ -5830,7 +5830,7 @@ const employees = [
     department: "ANALYTICAL AUTOMATION",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 729,
     parentId: 0,
@@ -5838,7 +5838,7 @@ const employees = [
     department: "BI PROJECT FINANCE I",
     positionName: "ANALISTA PROJECT FINANCE JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 730,
     parentId: 562,
@@ -5846,7 +5846,7 @@ const employees = [
     department: "BI HDPE PRODUCTION VII",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 731,
     parentId: 52,
@@ -5854,7 +5854,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION IV",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 732,
     parentId: 227,
@@ -5862,7 +5862,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION II",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 733,
     parentId: 225,
@@ -5870,7 +5870,7 @@ const employees = [
     department: "BI LOGISTIC OPERATIONS",
     positionName: "ANALISTA LOGISTICA JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 734,
     parentId: 244,
@@ -5878,7 +5878,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE II",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 735,
     parentId: 330,
@@ -5886,7 +5886,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES VI",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 736,
     parentId: 322,
@@ -5894,7 +5894,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES II",
     positionName: "OPERADOR II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 737,
     parentId: 0,
@@ -5902,7 +5902,7 @@ const employees = [
     department: "BI TALENT ATTRACTION",
     positionName: "ANALISTA ATRACCION DE TALENTO PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 738,
     parentId: 277,
@@ -5910,7 +5910,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES I",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: 40386
-  },
+, globalDepartment: ""  },
   {
     id: 739,
     parentId: 500,
@@ -5918,7 +5918,7 @@ const employees = [
     department: "BI INDUSTRIAL PLANNING",
     positionName: "INGENIERO CONTROL DE PROYECTOS JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 740,
     parentId: 140,
@@ -5926,7 +5926,7 @@ const employees = [
     department: "BI P&O PEOPLE SERVICES",
     positionName: "ANALISTA SERVICIOS A PERSONAS PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 741,
     parentId: 953,
@@ -5934,7 +5934,7 @@ const employees = [
     department: "BI MAINTENANCE PLANNING",
     positionName: "TECNICO MANTENIMIENTO II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 742,
     parentId: 671,
@@ -5942,7 +5942,7 @@ const employees = [
     department: "LABORATORY I",
     positionName: "AUXILIAR DE LABORATORIO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 743,
     parentId: 671,
@@ -5950,7 +5950,7 @@ const employees = [
     department: "LABORATORY I",
     positionName: "AUXILIAR DE LABORATORIO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 744,
     parentId: 299,
@@ -5958,7 +5958,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES I",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 745,
     parentId: 671,
@@ -5966,7 +5966,7 @@ const employees = [
     department: "LABORATORY I",
     positionName: "AUXILIAR DE LABORATORIO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 746,
     parentId: 569,
@@ -5974,7 +5974,7 @@ const employees = [
     department: "OPERATIONS IT MEXICO",
     positionName: "TECNICO DE SOPORTE TI",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 747,
     parentId: 500,
@@ -5982,7 +5982,7 @@ const employees = [
     department: "BI INDUSTRIAL PLANNING",
     positionName: "INGENIERO DE PROYECTOS JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 748,
     parentId: 500,
@@ -5990,7 +5990,7 @@ const employees = [
     department: "BI INDUSTRIAL PLANNING",
     positionName: "INGENIERO DE PROYECTOS JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 749,
     parentId: 500,
@@ -5998,7 +5998,7 @@ const employees = [
     department: "BI INDUSTRIAL PLANNING",
     positionName: "INGENIERO DE PROYECTOS JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 750,
     parentId: 264,
@@ -6006,7 +6006,7 @@ const employees = [
     department: "BI LABOR RELATIONSHIP",
     positionName: "ANALISTA RELACIONES LABORALES PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 751,
     parentId: 671,
@@ -6014,7 +6014,7 @@ const employees = [
     department: "LABORATORY I",
     positionName: "AUXILIAR DE LABORATORIO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 752,
     parentId: 569,
@@ -6022,7 +6022,7 @@ const employees = [
     department: "OPERATIONS IT MEXICO",
     positionName: "TECNICO DE SOPORTE TI",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 753,
     parentId: 35,
@@ -6030,7 +6030,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE III",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 754,
     parentId: 546,
@@ -6038,7 +6038,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE II",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 755,
     parentId: 144,
@@ -6046,7 +6046,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE I",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 756,
     parentId: 572,
@@ -6054,7 +6054,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES III",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 757,
     parentId: 572,
@@ -6062,7 +6062,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES III",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 758,
     parentId: 300,
@@ -6070,7 +6070,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES I",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 759,
     parentId: 277,
@@ -6078,7 +6078,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE I",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 760,
     parentId: 412,
@@ -6086,7 +6086,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES II",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 761,
     parentId: 78,
@@ -6094,7 +6094,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE I",
     positionName: "TECNICO EN CAPACITACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 762,
     parentId: 244,
@@ -6102,7 +6102,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE II",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 763,
     parentId: 279,
@@ -6110,7 +6110,7 @@ const employees = [
     department: "ANALYTICAL AUTOMATION",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 764,
     parentId: 505,
@@ -6118,7 +6118,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 765,
     parentId: 125,
@@ -6126,7 +6126,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 766,
     parentId: 641,
@@ -6134,7 +6134,7 @@ const employees = [
     department: "RELIABILITY I",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 767,
     parentId: 276,
@@ -6142,7 +6142,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES I",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 768,
     parentId: 277,
@@ -6150,7 +6150,7 @@ const employees = [
     department: "RELIABILITY I",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 769,
     parentId: 546,
@@ -6158,7 +6158,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE II",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 770,
     parentId: 244,
@@ -6166,7 +6166,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE II",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 771,
     parentId: 402,
@@ -6174,7 +6174,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES II",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 772,
     parentId: 536,
@@ -6182,7 +6182,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 773,
     parentId: 279,
@@ -6190,7 +6190,7 @@ const employees = [
     department: "ANALYTICAL AUTOMATION",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 774,
     parentId: 812,
@@ -6198,7 +6198,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE V",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 775,
     parentId: 279,
@@ -6206,7 +6206,7 @@ const employees = [
     department: "ANALYTICAL AUTOMATION",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: 40485
-  },
+, globalDepartment: ""  },
   {
     id: 776,
     parentId: 292,
@@ -6214,7 +6214,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE IV",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 777,
     parentId: 505,
@@ -6222,7 +6222,7 @@ const employees = [
     department: "RELIABILITY I",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 778,
     parentId: 536,
@@ -6230,7 +6230,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 779,
     parentId: 144,
@@ -6238,7 +6238,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE I",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 780,
     parentId: 34,
@@ -6246,7 +6246,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES IV",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 781,
     parentId: 641,
@@ -6254,7 +6254,7 @@ const employees = [
     department: "RELIABILITY I",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 782,
     parentId: 505,
@@ -6262,7 +6262,7 @@ const employees = [
     department: "RELIABILITY I",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 783,
     parentId: 125,
@@ -6270,7 +6270,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 784,
     parentId: 279,
@@ -6278,7 +6278,7 @@ const employees = [
     department: "ANALYTICAL AUTOMATION",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: 40481
-  },
+, globalDepartment: ""  },
   {
     id: 785,
     parentId: 648,
@@ -6286,7 +6286,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION III",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 786,
     parentId: 615,
@@ -6294,7 +6294,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES IV",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 787,
     parentId: 279,
@@ -6302,7 +6302,7 @@ const employees = [
     department: "ANALYTICAL AUTOMATION",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 788,
     parentId: 70,
@@ -6310,7 +6310,7 @@ const employees = [
     department: "RELIABILITY I",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 789,
     parentId: 35,
@@ -6318,7 +6318,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE III",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: 40490
-  },
+, globalDepartment: ""  },
   {
     id: 790,
     parentId: 244,
@@ -6326,7 +6326,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 791,
     parentId: 0,
@@ -6334,7 +6334,7 @@ const employees = [
     department: "BI MAINTENANCE PLANNING",
     positionName: "INGENIERO PLANEACION JUNIOR",
     imageName: 40493
-  },
+, globalDepartment: ""  },
   {
     id: 792,
     parentId: 641,
@@ -6342,7 +6342,7 @@ const employees = [
     department: "RELIABILITY I",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 793,
     parentId: 78,
@@ -6350,7 +6350,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE I",
     positionName: "TECNICO EN CAPACITACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 794,
     parentId: 300,
@@ -6358,7 +6358,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES I",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 795,
     parentId: 402,
@@ -6366,7 +6366,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES II",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 796,
     parentId: 276,
@@ -6374,7 +6374,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES I",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 797,
     parentId: 244,
@@ -6382,7 +6382,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE II",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 798,
     parentId: 569,
@@ -6390,7 +6390,7 @@ const employees = [
     department: "OPERATIONS IT MEXICO",
     positionName: "ANALISTA SOPORTE TECNICO JUNIOR",
     imageName: 40499
-  },
+, globalDepartment: ""  },
   {
     id: 799,
     parentId: 671,
@@ -6398,7 +6398,7 @@ const employees = [
     department: "LABORATORY I",
     positionName: "AUXILIAR DE LABORATORIO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 800,
     parentId: 78,
@@ -6406,7 +6406,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE I",
     positionName: "TECNICO EN CAPACITACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 801,
     parentId: 244,
@@ -6414,7 +6414,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE II",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 802,
     parentId: 244,
@@ -6422,7 +6422,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE II",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 803,
     parentId: 536,
@@ -6430,7 +6430,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 804,
     parentId: 402,
@@ -6438,7 +6438,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES II",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 805,
     parentId: 276,
@@ -6446,7 +6446,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES I",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 806,
     parentId: 536,
@@ -6454,7 +6454,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 807,
     parentId: 536,
@@ -6462,7 +6462,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 808,
     parentId: 536,
@@ -6470,7 +6470,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 809,
     parentId: 125,
@@ -6478,7 +6478,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 810,
     parentId: 150,
@@ -6486,7 +6486,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION V",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 811,
     parentId: 70,
@@ -6494,7 +6494,7 @@ const employees = [
     department: "RELIABILITY I",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 812,
     parentId: 582,
@@ -6502,7 +6502,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE",
     positionName: "SUPERVISOR MECANICO",
     imageName: 40575
-  },
+, globalDepartment: ""  },
   {
     id: 813,
     parentId: 70,
@@ -6510,7 +6510,7 @@ const employees = [
     department: "RELIABILITY I",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 814,
     parentId: 641,
@@ -6518,7 +6518,7 @@ const employees = [
     department: "RELIABILITY I",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 815,
     parentId: 259,
@@ -6526,7 +6526,7 @@ const employees = [
     department: "BI HDPE PRODUCTION III",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 816,
     parentId: 505,
@@ -6534,7 +6534,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 817,
     parentId: 35,
@@ -6542,7 +6542,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE III",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 818,
     parentId: 244,
@@ -6550,7 +6550,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 819,
     parentId: 569,
@@ -6558,7 +6558,7 @@ const employees = [
     department: "OPERATIONS IT MEXICO",
     positionName: "ANALISTA SOPORTE TECNICO JUNIOR",
     imageName: 40643
-  },
+, globalDepartment: ""  },
   {
     id: 820,
     parentId: 299,
@@ -6566,7 +6566,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE II",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 821,
     parentId: 299,
@@ -6574,7 +6574,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE II",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 822,
     parentId: 35,
@@ -6582,7 +6582,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE III",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 823,
     parentId: 35,
@@ -6590,7 +6590,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE III",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: 40629
-  },
+, globalDepartment: ""  },
   {
     id: 824,
     parentId: 34,
@@ -6598,7 +6598,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES IV",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 825,
     parentId: 34,
@@ -6606,7 +6606,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES IV",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 826,
     parentId: 276,
@@ -6614,7 +6614,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES I",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: 40632
-  },
+, globalDepartment: ""  },
   {
     id: 827,
     parentId: 412,
@@ -6622,7 +6622,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES II",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 828,
     parentId: 412,
@@ -6630,7 +6630,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES II",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 829,
     parentId: 812,
@@ -6638,7 +6638,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE V",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 830,
     parentId: 812,
@@ -6646,7 +6646,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE V",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 831,
     parentId: 70,
@@ -6654,7 +6654,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE III",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 832,
     parentId: 70,
@@ -6662,7 +6662,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE III",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 833,
     parentId: 144,
@@ -6670,7 +6670,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE I",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 834,
     parentId: 244,
@@ -6678,7 +6678,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 835,
     parentId: 546,
@@ -6686,7 +6686,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE II",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 836,
     parentId: 546,
@@ -6694,7 +6694,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE II",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 837,
     parentId: 572,
@@ -6702,7 +6702,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES III",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 838,
     parentId: 615,
@@ -6710,7 +6710,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES IV",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 839,
     parentId: 615,
@@ -6718,7 +6718,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES IV",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 840,
     parentId: 349,
@@ -6726,7 +6726,7 @@ const employees = [
     department: "WAREHOUSE",
     positionName: "BECARIO ALMACEN GENERAL MRO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 841,
     parentId: 231,
@@ -6734,7 +6734,7 @@ const employees = [
     department: "SERVICES AND CONTRACTS I",
     positionName: "BECARIO PLANEACION Y CONTRATOS",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 842,
     parentId: 298,
@@ -6742,7 +6742,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES II",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 843,
     parentId: 332,
@@ -6750,7 +6750,7 @@ const employees = [
     department: "BI TECHNICHAL LABORATORY",
     positionName: "BECARIO LABORATORIO DE SERVICIOS TECNICO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 844,
     parentId: 495,
@@ -6758,7 +6758,7 @@ const employees = [
     department: "LABORATORY II",
     positionName: "BECARIO LABORATORIO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 845,
     parentId: 55,
@@ -6766,7 +6766,7 @@ const employees = [
     department: "MATERIALS, SERVICES AND CONTRACTS",
     positionName: "BECARIO PROCURA MRO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 846,
     parentId: 581,
@@ -6774,7 +6774,7 @@ const employees = [
     department: "BI HDPE PRODUCTION",
     positionName: "BECARIO PRODUCCION PEAD",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 847,
     parentId: 670,
@@ -6782,7 +6782,7 @@ const employees = [
     department: "BI LDPE PRODUCTION",
     positionName: "BECARIO PRODUCCION PEBD",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 848,
     parentId: 673,
@@ -6790,7 +6790,7 @@ const employees = [
     department: "BI IMPORTED ETHANE OPERATION",
     positionName: "BECARIO OPERACION ETANO IMPORTADO",
     imageName: 40669
-  },
+, globalDepartment: ""  },
   {
     id: 849,
     parentId: 103,
@@ -6798,7 +6798,7 @@ const employees = [
     department: "BI TRANSPORTATION MANAGEMENT",
     positionName: "BECARIO LOGISTICA",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 850,
     parentId: 116,
@@ -6806,7 +6806,7 @@ const employees = [
     department: "COMPLIANCE MEXICO",
     positionName: "BECARIO COMPLIANCE",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 851,
     parentId: 189,
@@ -6814,7 +6814,7 @@ const employees = [
     department: "BI COMMERCIAL PERFOR. MGNT & MKT INTEL",
     positionName: "BECARIO PROJECT FINANCE",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 852,
     parentId: 55,
@@ -6822,7 +6822,7 @@ const employees = [
     department: "MATERIALS, SERVICES AND CONTRACTS",
     positionName: "BECARIO PROCURA MRO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 853,
     parentId: 481,
@@ -6830,7 +6830,7 @@ const employees = [
     department: "BI QUALITY",
     positionName: "BECARIO CALIDAD Y PROCESOS",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 854,
     parentId: 0,
@@ -6838,7 +6838,7 @@ const employees = [
     department: "BI PROJECT FINANCE I",
     positionName: "BECARIO PROJECT FINANCE",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 855,
     parentId: 203,
@@ -6846,7 +6846,7 @@ const employees = [
     department: "LEGAL & CORPORATE GOVERNANCE",
     positionName: "BECARIO LEGAL",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 856,
     parentId: 508,
@@ -6854,7 +6854,7 @@ const employees = [
     department: "QUALITY MEXICO",
     positionName: "BECARIO CALIDAD",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 857,
     parentId: 569,
@@ -6862,7 +6862,7 @@ const employees = [
     department: "OPERATIONS IT MEXICO",
     positionName: "ANALISTA SOPORTE TECNICO PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 858,
     parentId: 487,
@@ -6870,7 +6870,7 @@ const employees = [
     department: "RAW MATERIAIS AND SUPPLY",
     positionName: "BECARIO INTELIGENCIA Y DESARROLLO DE PROVEEDORES",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 859,
     parentId: 416,
@@ -6878,7 +6878,7 @@ const employees = [
     department: "BI TAX",
     positionName: "BECARIO IMPUESTOS",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 860,
     parentId: 351,
@@ -6886,7 +6886,7 @@ const employees = [
     department: "BI CONTROLLING & RISKS",
     positionName: "BECARIO CONTRALORIA Y RIESGOS",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 861,
     parentId: 96,
@@ -6894,7 +6894,7 @@ const employees = [
     department: "PRODUCT AND MARKET INTELIGENCE",
     positionName: "BECARIO PCR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 862,
     parentId: 164,
@@ -6902,7 +6902,7 @@ const employees = [
     department: "PRODUCT AND MARKET INTELIGENCE",
     positionName: "BECARIO INTELIGENCIA DE MERCADO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 863,
     parentId: 162,
@@ -6910,7 +6910,7 @@ const employees = [
     department: "BI STRATEGIC RAW MATERIAL AND ENGERGY",
     positionName: "BECARIO ENERGIA",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 864,
     parentId: 500,
@@ -6918,7 +6918,7 @@ const employees = [
     department: "BI INDUSTRIAL PLANNING",
     positionName: "BECARIO PLANEACION INDUSTRIAL",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 865,
     parentId: 170,
@@ -6926,7 +6926,7 @@ const employees = [
     department: "PROCESS ENGINEERING",
     positionName: "BECARIO PROCESOS",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 866,
     parentId: 225,
@@ -6934,7 +6934,7 @@ const employees = [
     department: "BI LOGISTIC OPERATIONS",
     positionName: "BECARIO CONTRATOS Y OPERACIONES LOGISTICAS",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 867,
     parentId: 70,
@@ -6942,7 +6942,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES III",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 868,
     parentId: 299,
@@ -6950,7 +6950,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE II",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 869,
     parentId: 300,
@@ -6958,7 +6958,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES I",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 870,
     parentId: 343,
@@ -6966,7 +6966,7 @@ const employees = [
     department: "SUSTAINABILITY AND CIRCULAR ECONOMY",
     positionName: "BECARIO ECONOMIA CIRCULAR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 871,
     parentId: 279,
@@ -6974,7 +6974,7 @@ const employees = [
     department: "ANALYTICAL AUTOMATION",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 872,
     parentId: 279,
@@ -6982,7 +6982,7 @@ const employees = [
     department: "ANALYTICAL AUTOMATION",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 873,
     parentId: 678,
@@ -6990,7 +6990,7 @@ const employees = [
     department: "BI LDPE PRODUCTION III",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 874,
     parentId: 236,
@@ -6998,7 +6998,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES IV",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 875,
     parentId: 244,
@@ -7006,7 +7006,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 876,
     parentId: 551,
@@ -7014,7 +7014,7 @@ const employees = [
     department: "BI HDPE PRODUCTION VIII",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 877,
     parentId: 536,
@@ -7022,7 +7022,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 878,
     parentId: 419,
@@ -7030,7 +7030,7 @@ const employees = [
     department: "BI INSTITUTIONAL MARKETING",
     positionName: "ANALISTA MARKETING INSTITUCIONAL PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 879,
     parentId: 670,
@@ -7038,7 +7038,7 @@ const employees = [
     department: "BI LDPE PRODUCTION",
     positionName: "PRACTICANTE PRODUCCION PEBD",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 880,
     parentId: 0,
@@ -7046,7 +7046,7 @@ const employees = [
     department: "CONTINUOUS IMPROVEMENT & GPS",
     positionName: "PRACTICANTE MEJORA CONTINUA",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 881,
     parentId: 667,
@@ -7054,7 +7054,7 @@ const employees = [
     department: "BI SOCIAL RESPONSIBILITY",
     positionName: "PRACTICANTE RESPONSABILIDAD SOCIAL",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 882,
     parentId: 475,
@@ -7062,7 +7062,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES",
     positionName: "PRACTICANTE MANTENIMIENTO SERV NORTE",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 883,
     parentId: 157,
@@ -7070,7 +7070,7 @@ const employees = [
     department: "MATERIALS",
     positionName: "PRACTICANTE PROCURA MRO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 884,
     parentId: 157,
@@ -7078,7 +7078,7 @@ const employees = [
     department: "MATERIALS",
     positionName: "PRACTICANTE PROCURA MRO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 885,
     parentId: 667,
@@ -7086,7 +7086,7 @@ const employees = [
     department: "BI SOCIAL RESPONSIBILITY",
     positionName: "PRACTICANTE RESPONSABILIDAD SOCIAL",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 886,
     parentId: 474,
@@ -7094,7 +7094,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION",
     positionName: "PRACTICANTE PRODUCCION ETILENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 887,
     parentId: 671,
@@ -7102,7 +7102,7 @@ const employees = [
     department: "LABORATORY I",
     positionName: "PRACTICANTE LABORATORIO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 888,
     parentId: 479,
@@ -7110,7 +7110,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES",
     positionName: "PRACTICANTE PRODUCCION SERVICIOS NORTE",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 889,
     parentId: 0,
@@ -7118,7 +7118,7 @@ const employees = [
     department: "BI MAINTENANCE PLANNING",
     positionName: "INGENIERO PLANEACION PLENO",
     imageName: 40830
-  },
+, globalDepartment: ""  },
   {
     id: 890,
     parentId: 319,
@@ -7126,7 +7126,7 @@ const employees = [
     department: "RAW MATERIAIS AND SUPPLY",
     positionName: "ANALISTA PROCURA Y SUMINISTRO SENIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 891,
     parentId: 225,
@@ -7134,7 +7134,7 @@ const employees = [
     department: "BI LOGISTIC OPERATIONS",
     positionName: "ANALISTA LOGISTICA JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 892,
     parentId: 150,
@@ -7142,7 +7142,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION V",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 893,
     parentId: 812,
@@ -7150,7 +7150,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE V",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 894,
     parentId: 333,
@@ -7158,7 +7158,7 @@ const employees = [
     department: "BI DEMAND PLANNING",
     positionName: "ANALISTA PLANEACION DE DISTRIBUCION JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 895,
     parentId: 694,
@@ -7166,7 +7166,7 @@ const employees = [
     department: "BI TREASURY I",
     positionName: "COORDINADOR TESORERIA",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 896,
     parentId: 148,
@@ -7174,7 +7174,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE",
     positionName: "PRACTICANTE MANTENIMIENTO ETILENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 897,
     parentId: 581,
@@ -7182,7 +7182,7 @@ const employees = [
     department: "BI HDPE PRODUCTION",
     positionName: "PRACTICANTE PRODUCCION PEAD",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 898,
     parentId: 214,
@@ -7190,7 +7190,7 @@ const employees = [
     department: "BI PROCESS SAFETY",
     positionName: "PRACTICANTE SEGURIDAD DE PROCESOS",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 899,
     parentId: 953,
@@ -7198,7 +7198,7 @@ const employees = [
     department: "BI MAINTENANCE PLANNING",
     positionName: "PRACTICANTE MANTENIMIENTO PLANEACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 900,
     parentId: 582,
@@ -7206,7 +7206,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE",
     positionName: "PRACTICANTE MANTENIMIENTO PEBD",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 901,
     parentId: 508,
@@ -7214,7 +7214,7 @@ const employees = [
     department: "QUALITY MEXICO",
     positionName: "PRACTICANTE CALIDAD",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 902,
     parentId: 505,
@@ -7222,7 +7222,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "PRACTICANTE CONFIABILIDAD",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 903,
     parentId: 319,
@@ -7230,7 +7230,7 @@ const employees = [
     department: "RAW MATERIAIS AND SUPPLY",
     positionName: "PRACTICANTE MATERIA PRIMA Y SUMINISTROS",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 904,
     parentId: 171,
@@ -7238,7 +7238,7 @@ const employees = [
     department: "BI INTERNAL COMMUNICATION",
     positionName: "PRACTICANTE COMUNICACION INTERNA",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 905,
     parentId: 140,
@@ -7246,7 +7246,7 @@ const employees = [
     department: "BI P&O PEOPLE SERVICES",
     positionName: "PRACTICANTE SERVICIOS A PERSONAS",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 906,
     parentId: 163,
@@ -7254,7 +7254,7 @@ const employees = [
     department: "BI INDUSTRIAL PERFORMANCE MANAGEMENT",
     positionName: "PRACTICANTE DESEMPEÑO INDUSTRIAL",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 907,
     parentId: 238,
@@ -7262,7 +7262,7 @@ const employees = [
     department: "MONITORING I",
     positionName: "PRACTICANTE MONITORIA",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 908,
     parentId: 953,
@@ -7270,7 +7270,7 @@ const employees = [
     department: "BI MAINTENANCE PLANNING",
     positionName: "PRACTICANTE MANTENIMIENTO PLANEACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 909,
     parentId: 495,
@@ -7278,7 +7278,7 @@ const employees = [
     department: "LABORATORY II",
     positionName: "PRACTICANTE LABORATORIO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 910,
     parentId: 170,
@@ -7286,7 +7286,7 @@ const employees = [
     department: "PROCESS ENGINEERING",
     positionName: "PRACTICANTE PROCESOS ETILENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 911,
     parentId: 130,
@@ -7294,7 +7294,7 @@ const employees = [
     department: "BI MAINTENANCE",
     positionName: "INGENIERO MANTENIMIENTO PLENO",
     imageName: 40861
-  },
+, globalDepartment: ""  },
   {
     id: 912,
     parentId: 325,
@@ -7302,7 +7302,7 @@ const employees = [
     department: "BI PRODUCTION PLANNING",
     positionName: "BECARIO PLANEACION DE PRODUCCION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 913,
     parentId: 0,
@@ -7310,7 +7310,7 @@ const employees = [
     department: "BI MAINTENANCE PLANNING",
     positionName: "INGENIERO PLANEACION JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 914,
     parentId: 7,
@@ -7318,7 +7318,7 @@ const employees = [
     department: "BI PAYABLE ACCOUNTS",
     positionName: "BECARIO CUENTAS POR PAGAR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 915,
     parentId: 402,
@@ -7326,7 +7326,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES II",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 916,
     parentId: 675,
@@ -7334,7 +7334,7 @@ const employees = [
     department: "AUTOMATION MEXICO",
     positionName: "INGENIERO AUTOMATIZACION JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 917,
     parentId: 642,
@@ -7342,7 +7342,7 @@ const employees = [
     department: "BI CUSTOMER SERVICES IM",
     positionName: "ANALISTA SERVICIO AL CLIENTE MI JUNIOR",
     imageName: 40975
-  },
+, globalDepartment: ""  },
   {
     id: 918,
     parentId: 409,
@@ -7350,7 +7350,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES V",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 919,
     parentId: 322,
@@ -7358,7 +7358,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES II",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 920,
     parentId: 465,
@@ -7366,7 +7366,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES I",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 921,
     parentId: 292,
@@ -7374,7 +7374,7 @@ const employees = [
     department: "BI ETHYLENE MAINTENANCE IV",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 922,
     parentId: 35,
@@ -7382,7 +7382,7 @@ const employees = [
     department: "BI HDPE POLYEHTYLENE MAINTENANCE III",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 923,
     parentId: 342,
@@ -7390,7 +7390,7 @@ const employees = [
     department: "BI POLYETHYLENTE OPERATIONS",
     positionName: "PRACTICANTE PRODUCCION PEAD",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 924,
     parentId: 342,
@@ -7398,7 +7398,7 @@ const employees = [
     department: "BI POLYETHYLENTE OPERATIONS",
     positionName: "PRACTICANTE PRODUCCION PEAD",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 925,
     parentId: 55,
@@ -7406,7 +7406,7 @@ const employees = [
     department: "MATERIALS, SERVICES AND CONTRACTS",
     positionName: "BECARIO PROCURA MRO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 926,
     parentId: 7,
@@ -7414,7 +7414,7 @@ const employees = [
     department: "BI PAYABLE ACCOUNTS",
     positionName: "BECARIO CUENTAS POR COBRAR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 927,
     parentId: 505,
@@ -7422,7 +7422,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "BECARIO CONFIABILIDAD",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 928,
     parentId: 675,
@@ -7430,7 +7430,7 @@ const employees = [
     department: "AUTOMATION MEXICO",
     positionName: "BECARIO AUTOMATIZACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 929,
     parentId: 4,
@@ -7438,7 +7438,7 @@ const employees = [
     department: "BI TECHNICHAL SERVICES AND PRODUCT DEV",
     positionName: "BECARIO LABORATORIO DE SERVICIOS TECNICO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 930,
     parentId: 156,
@@ -7446,7 +7446,7 @@ const employees = [
     department: "PROCESS ENGINEERING",
     positionName: "INGENIERO PROCESOS PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 931,
     parentId: 170,
@@ -7454,7 +7454,7 @@ const employees = [
     department: "INDUSTRIAL MEXICO",
     positionName: "ASISTENTE EJECUTIVA",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 932,
     parentId: 150,
@@ -7462,7 +7462,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION V",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 933,
     parentId: 298,
@@ -7470,7 +7470,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES II",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 934,
     parentId: 465,
@@ -7478,7 +7478,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES III",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 935,
     parentId: 63,
@@ -7486,7 +7486,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES IV",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 936,
     parentId: 63,
@@ -7494,7 +7494,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES IV",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 937,
     parentId: 412,
@@ -7502,7 +7502,7 @@ const employees = [
     department: "BI MAINTENANCE NORTH SERVICES II",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 938,
     parentId: 52,
@@ -7510,7 +7510,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION I",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 939,
     parentId: 505,
@@ -7518,7 +7518,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 940,
     parentId: 14,
@@ -7526,7 +7526,7 @@ const employees = [
     department: "BUSINESS SOLUTION & PROJECTS",
     positionName: "ANALISTA PROYECTOS SENIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 941,
     parentId: 0,
@@ -7534,7 +7534,7 @@ const employees = [
     department: "PROCUREMENT PROCESS & PLANNING",
     positionName: "ANALISTA GESTION Y PROCESOS PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 942,
     parentId: 465,
@@ -7542,7 +7542,7 @@ const employees = [
     department: "BI PRODUCTION SOUTH SERVICES III",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 943,
     parentId: 648,
@@ -7550,7 +7550,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION III",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 944,
     parentId: 170,
@@ -7558,7 +7558,7 @@ const employees = [
     department: "INDUSTRIAL MEXICO",
     positionName: "OPERADOR I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 945,
     parentId: 300,
@@ -7566,7 +7566,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES I",
     positionName: "TECNICO MANTENIMIENTO I",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 946,
     parentId: 170,
@@ -7574,7 +7574,7 @@ const employees = [
     department: "PROCESS ENGINEERING",
     positionName: "INGENIERO PROCESOS SENIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 947,
     parentId: 150,
@@ -7582,7 +7582,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION IV",
     positionName: "OPERADOR EN CAPACITACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 948,
     parentId: 52,
@@ -7590,7 +7590,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION V",
     positionName: "OPERADOR EN CAPACITACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 949,
     parentId: 470,
@@ -7598,7 +7598,7 @@ const employees = [
     department: "BI TRAINING",
     positionName: "BECARIO CAPACITACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 950,
     parentId: 505,
@@ -7606,7 +7606,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "INGENIERO ELECTRICO ESPECIALISTA",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 951,
     parentId: 150,
@@ -7614,7 +7614,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION IV",
     positionName: "OPERADOR EN CAPACITACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 952,
     parentId: 404,
@@ -7622,7 +7622,7 @@ const employees = [
     department: "BI HDPE PRODUCTION VII",
     positionName: "OPERADOR EN CAPACITACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 953,
     parentId: 666,
@@ -7630,7 +7630,7 @@ const employees = [
     department: "BI MAINTENANCE SOUTH SERVICES",
     positionName: "SUPERINTENDENTE MANTENIMIENTO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 954,
     parentId: 689,
@@ -7638,7 +7638,7 @@ const employees = [
     department: "BI MANAGEMENT PERFORMANCE & MKT INTEL",
     positionName: "ESPECIALISTA PROYECTOS ESTRATEGICOS",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 955,
     parentId: 691,
@@ -7646,7 +7646,7 @@ const employees = [
     department: "FINANCE",
     positionName: "GERENTE DE FINANZAS",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 956,
     parentId: 264,
@@ -7654,7 +7654,7 @@ const employees = [
     department: "BI LABOR RELATIONSHIP",
     positionName: "PRACTICANTE RELACIONES LABORALES",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 957,
     parentId: 227,
@@ -7662,7 +7662,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION II",
     positionName: "OPERADOR EN CAPACITACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 958,
     parentId: 227,
@@ -7670,7 +7670,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION II",
     positionName: "OPERADOR EN CAPACITACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 959,
     parentId: 222,
@@ -7678,7 +7678,7 @@ const employees = [
     department: "BI LDPE PRODUCTION I",
     positionName: "OPERADOR EN CAPACITACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 960,
     parentId: 666,
@@ -7686,7 +7686,7 @@ const employees = [
     department: "BI MAINTENANCE PLANNING",
     positionName: "SUPERINTENDENTE PLANEACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 961,
     parentId: 261,
@@ -7694,7 +7694,7 @@ const employees = [
     department: "BI LDPE PRODUCTION I",
     positionName: "OPERADOR III",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 962,
     parentId: 505,
@@ -7702,7 +7702,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "PRACTICANTE CONFIABILIDAD",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 963,
     parentId: 648,
@@ -7710,7 +7710,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION IV",
     positionName: "OPERADOR EN CAPACITACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 964,
     parentId: 225,
@@ -7718,7 +7718,7 @@ const employees = [
     department: "BI LOGISTIC OPERATIONS",
     positionName: "ANALISTA LOGISTICA PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 965,
     parentId: 632,
@@ -7726,7 +7726,7 @@ const employees = [
     department: "BI PLANNING AND LOGISTIC CONTRACTS",
     positionName: "BECARIO CONTRATOS Y OPERACIONES LOGISTIC",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 966,
     parentId: 223,
@@ -7734,7 +7734,7 @@ const employees = [
     department: "BI HES",
     positionName: "ASISTENTE EJECUTIVA",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 967,
     parentId: 470,
@@ -7742,7 +7742,7 @@ const employees = [
     department: "BI TRAINING",
     positionName: "ANALISTA CAPACITACION PLENO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 968,
     parentId: 505,
@@ -7750,7 +7750,7 @@ const employees = [
     department: "RELIABILITY",
     positionName: "ESPECIALISTA DE CORROSION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 969,
     parentId: 676,
@@ -7758,7 +7758,7 @@ const employees = [
     department: "BI COMPENSATION AND BENEFITS",
     positionName: "COORDINADOR NOMINA Y ADMINISTRACION DE PERSONAL",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 970,
     parentId: 507,
@@ -7766,7 +7766,7 @@ const employees = [
     department: "BI TALENT ATTRACTION",
     positionName: "COORDINADOR ATRACCION DE TALENTO",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 971,
     parentId: 0,
@@ -7774,7 +7774,7 @@ const employees = [
     department: "CONTINUOUS IMPROVEMENT & GPS",
     positionName: "PRACTICANTE MEJORA CONTINUA",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 972,
     parentId: 238,
@@ -7782,7 +7782,7 @@ const employees = [
     department: "MONITORING",
     positionName: "ANALISTA MEJORA DE NEGOCIO SENIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 973,
     parentId: 562,
@@ -7790,7 +7790,7 @@ const employees = [
     department: "BI HDPE PRODUCTION VII",
     positionName: "OPERADOR EN CAPACITACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 974,
     parentId: 536,
@@ -7798,7 +7798,7 @@ const employees = [
     department: "BI LDPE POLYEHTYLENE MAINTENANCE III",
     positionName: "TECNICO EN CAPACITACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 975,
     parentId: 236,
@@ -7806,7 +7806,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES IV",
     positionName: "OPERADOR II",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 976,
     parentId: 404,
@@ -7814,7 +7814,7 @@ const employees = [
     department: "BI HDPE PRODUCTION VIII",
     positionName: "OPERADOR EN CAPACITACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 977,
     parentId: 227,
@@ -7822,7 +7822,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION IV",
     positionName: "OPERADOR EN CAPACITACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 978,
     parentId: 409,
@@ -7830,7 +7830,7 @@ const employees = [
     department: "BI PRODUCTION NORTH SERVICES V",
     positionName: "OPERADOR EN CAPACITACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 979,
     parentId: 150,
@@ -7838,7 +7838,7 @@ const employees = [
     department: "BI ETHYLENE PRODUCTION V",
     positionName: "OPERADOR EN CAPACITACION",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 980,
     parentId: 642,
@@ -7846,7 +7846,7 @@ const employees = [
     department: "BI CUSTOMER SERVICES IM",
     positionName: "ANALISTA SERVICIO AL CLIENTE MI JUNIOR",
     imageName: "unknown"
-  },
+, globalDepartment: ""  },
   {
     id: 981,
     parentId: 642,

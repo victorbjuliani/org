@@ -1,12 +1,12 @@
-import React from "react";
+import * as React from "react";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
-import "../styles.css";
+import styles from './OrganigramaMxWebPart.module.scss';
 
-const CustomExpandButton = (node) => {
+const CustomExpandButton = (node: any) => {
   return (
     <>
       {node && (
-        <div className="expand-btn">
+        <div className={styles["expand-btn"]}>
           <span>{node.data._directSubordinates}</span>
           <span>{node.children ? <FaAngleLeft /> : <FaAngleRight />}</span>
         </div>

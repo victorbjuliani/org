@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.18.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.0",
+    "libraryName": "organigrama-mx",
+    "libraryId": "2bf141cb-7ad9-400d-b13e-9dc398ef79e4",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Organigrama MX",
+    "solutionShortDescription": "Organigrama MX description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

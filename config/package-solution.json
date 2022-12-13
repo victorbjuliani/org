@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "organigrama-mx-client-side-solution",
+    "id": "2bf141cb-7ad9-400d-b13e-9dc398ef79e4",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Organigrama MX description"
+      },
+      "longDescription": {
+        "default": "Organigrama MX description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "organigrama-mx Feature",
+        "description": "The feature that activates elements of the organigrama-mx solution.",
+        "id": "93e64b51-831e-4f1d-b497-de239cea6369",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/organigrama-mx.sppkg"
+  }
+}
