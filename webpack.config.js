@@ -23,6 +23,8 @@ module.exports = {
                 exclude: /node_modules/,
             }
         ],
-        
+        node: {
+            child_process: 'empty'
+        }
     }
 };

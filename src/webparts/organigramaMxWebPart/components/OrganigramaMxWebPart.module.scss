@@ -312,7 +312,12 @@
 	/* padding-left: 4em; */
 }
 
-#formPicklistEmp select{
+#formPicklistEmp{
+  position: absolute;
+  width: 100%;
+}
+
+#formPicklistEmp input{
 	/* background-image: url('../assets/searchicon.png'); */
 	/* background-position: 0px 0px; */
 	/* background-repeat: no-repeat; */
@@ -325,6 +330,7 @@
 	margin-left: 28%;
 	border: 1px solid #ddd;
 	/* padding-left: 4em; */
+  color: black;
 }
 
 #home{
@@ -355,4 +361,16 @@
 	margin-top: 1%;
 	margin-left: 80%;
 	cursor:pointer;
+}
+
+#global-org-container{
+  z-index:3;
+  position: absolute;
+  margin-top: 12%;
+	margin-left: 12%;
+  width: 100%;
+}
+
+#global-org-container label{
+	padding-left: 1%;
 }

@@ -32,8 +32,11 @@ export default class OrganigramaMxWebPartWebPart extends BaseClientSideWebPart<I
       }
     );
 
+    //const container = document.getElementsByClassName("org-chart")[0];
+
     sessionStorage.clear();
     ReactDom.render(element, this.domElement);
+    //ReactDom.render(element, container);
 
   }
 

@@ -13,8 +13,8 @@ const CustomNodeContent = (props: any) => {
           <div className={styles["node-content"]}>
           <img className={styles["node-img"]} src={require('../assets/users/' + props.data.imageUrl)} alt="Profile" />
             <div className={styles["node-info"]}>
-              <div className={styles["node-name"]}>{props.data.name}</div>
-              <div className={styles["node-role"]}>{props.data.positionName}</div>
+              <div className={styles["node-name"]}>{props.data.name.toUpperCase()}</div>
+              <div className={styles["node-role"]}>{props.data.positionName.toUpperCase()}</div>
             </div>
           </div>
         </div>

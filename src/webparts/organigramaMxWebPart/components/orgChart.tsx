@@ -6,8 +6,10 @@ import CustomNodeContent from "./customNodeContent";
 import CustomExpandButton from "./customExpandButton";
 import * as d3 from 'd3';
 
+const chart = new OrgChart();
 
 const OrganizationalChart = (props: any) => {
+
   const d3Container = useRef(null);
   const [cardShow, setCardShow] = useState(false);
   //const [employeeId, setEmployeeId] = useState("");
@@ -20,22 +22,26 @@ const OrganizationalChart = (props: any) => {
       handleShow();
       //setEmployeeId(nodeId);
     };
-    const chart = new OrgChart();
+    //const chart = new OrgChart();
 	
 	
-	for (var i = 0; i < props.data.length; i++) {
+	for (let i = 0; i < props.data.length; i++) {
 		
 		if (props.data[i].imageName !== 'unknown'){
-			//props.data[i].imageUrl = props.data[i].imageName.toString().padStart(8, '0') + '.PNG';
 			props.data[i].imageUrl = props.data[i].imageName.toString().padStart(8, '0') + '.png';
-			//props.data[i].imageUrl = 'blob:https://orys.sharepoint.com/f9f4f0c5-48f2-4ab4-bbef-688944fe9bc6';
-		}else{
-			//props.data[i].imageUrl = props.data[i].imageName.toString() + '.PNG';
-			props.data[i].imageUrl = props.data[i].imageName.toString() + '.png';
-			//props.data[i].imageUrl = 'blob:https://orys.sharepoint.com/f9f4f0c5-48f2-4ab4-bbef-688944fe9bc6';
 		}
-
-		//console.log(props.data[i].imageUrl);
+		else{
+			props.data[i].imageUrl = props.data[i].imageName.toString() + '.png';
+		}
+		
+		/*
+		if (props.data[i].imageName == 'logo-braskem'){
+			props.data[i].imageUrl = props.data[i].imageName.toString().padStart(8, '0') + '.png';
+		}
+		else{
+			props.data[i].imageUrl = 'unknown.png';
+		}
+		*/
 	}
 	/*
 	const images = require.context("../assets/users", true, /\.png$/);
@@ -69,57 +75,28 @@ const OrganizationalChart = (props: any) => {
 				<CustomNodeContent {...d} />
 			  );
 			})
+			.svgHeight(530)
 			.render();
 
 			//console.log(d3Container.current);
 
 		d3.select("#d3Container").select("svg")
-		.style("height","75%")
+		//.style("height","75%")
 		.style("z-index","2")
 		.style("position","absolute")
 		//.style("margin-top","8.6%");
-		.style("margin-top","16%");
+		.style("margin-top","17%");
 
-		
+		d3.select("#d3Container").sort(function(a:any,b:any){
+			return a.name.toLowerCase().localeCompare(b.name.toLowerCase());
+		  });
 
 		}
 	}
-	// catch(err){
-		// TRATAR ERRO DE RELACIONAMENTOS, FORÇANDO COM O NÓ RAIZ
-		// var missing_id = err.message.replace('missing: ','')
-		// var nodeRoot = props.data.filter(obj => {
-			// return obj.name === ''
-		// })
-		
-		// nodeRoot[0].id = +missing_id;
-		
-		// chart
-			// .container(d3Container.current)
-			// .data(props.data)
-			// .nodeWidth((d) => 150)
-			// .nodeHeight((d) => 270)
-			// .layout("left")
-			// .compact(true)
-			// .compactMarginBetween((d) => 80)
-			// .compactMarginPair((d) => 120)
-			// .childrenMargin((node) => 30)
-			// .onNodeClick((d) => {
-			  // toggleDetailsCard(d);
-			// })
-			// .buttonContent((node, state) => {
-			  // return ReactDOMServer.renderToStaticMarkup(
-				// <CustomExpandButton {...node.node} />
-			  // );
-			// })
-			// .nodeContent((d) => {
-			  // return ReactDOMServer.renderToStaticMarkup(
-				// <CustomNodeContent {...d} />
-			  // );
-			// })
-			// .render();
-		
-	// }
-	catch(err){console.log(err)};
+	catch(err){
+		console.log(err)
+	};
+	
   }, [props, props.data]);
 
   return (
@@ -130,3 +107,4 @@ const OrganizationalChart = (props: any) => {
 };
 
 export default OrganizationalChart;
+export {chart};
